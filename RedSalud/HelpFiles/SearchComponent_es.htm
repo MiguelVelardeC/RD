@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>Search</title>
+    <style type="text/css">
+        <!--
+        .Typed
+        {
+            font-family: Courier New, Courier, monospace;
+        }
+        -->
+    </style>
+</head>
+<body>
+    <h2>Búsquedas</h2>
+    <p>
+        <br />
+        Este sistema provee un componente de búsqueda en diferentes lugares. Este componente de búsqueda es un buscador
+        muy poderoso, parecido a Google, donde el usuario debe normalmente encontrar lo que está buscando. Además le permite
+        utilizar operadores para limitar el conjunto de resultados.
+    </p>
+    <p>
+        Como se puede ver en la figura de la izquierda, todo lo que tiene que hacer es escribir el criterio de búsqueda en la
+	    caja de texto del componente. El sistema intentará encontrar uno o más registros que satisfagan el criterio de búsqueda
+	    y aplicará la búsqueda en todos los campos de textos donde la misma tenga sentido. Por ello, solamente escriba una palabra
+	    o un conjunto de palabras y el sistema deberá encontrar los registros correctos.
+    </p>
+    <p align="center">
+        <img src="SearchComponent_es_files/SearchComponent_simple.gif" alt="Especificando búsqueda" /><br />
+    </p>
+    <p>
+        Si está disponible, el sistema de búsqueda le permitirá especificar una búsqueda refinada en un formulario de 
+    	fácil llenado. Como se muestra en la figura más abajo, haga clic en &quot;Búsqueda Avanzada&quot; y el sistema
+    	abrirá un formulario donde usted puede especificar los parámetros para el criterio de búsqueda.
+    </p>
+    <p align="center">
+        <img src="SearchComponent_es_files/SearchComponent_advanced.gif" alt="ejemplo de búsqueda avanzada" />
+    </p>
+    <p>&nbsp;</p>
+    <p>
+        Si usted desea tener mayor control sobre su búsqueda, usted puede utilizar la funcionalidad más avanzada del componente de búsqueda y
+	    escribir una expresión de búsqueda que especifica en detalle los valores que usted desea buscar para cada una de las variables
+	    disponibles en la búsqueda. Usted puede listar los campos disponibles haciendo clic en la herramienta de selección de 
+	    variables:<img src="SearchComponent_es_files/SelTool.gif" width="18" height="18" alt="Herramienta de Selección de Variables" />
+    </p>
+    <p>
+        La Herramienta de Selección de Variables despliega la lista de variables disponibles. Usted puede hacer clic en cualquiera 
+	    de estas variables para copiar el nombre de la variable en el componente de búsqueda. Cada uno de estas variables tiene el siguiente formato:
+    </p>
+    <p>
+        <strong>@nombreVariable</strong>: Descripción de variable.<br />
+        (<em>Ayuda para el tipo de variable</em>:  Instrucciones)
+    </p>
+    <p><em>La ayuda para el tipo de variable</em> puede ser una de las siguientes:</p>
+    <ul>
+        <li>Escriba una palabra: Esto significa que la variable es de tipo <strong>texto simple</strong>. </li>
+        <li>Palabras: Esto significa que la variable es de tipo <strong>texto completo habilitado</strong>.</li>
+        <li>Escriba true/false: Esto significa que la variable es de tipo <strong>boolean</strong>.</li>
+        <li>Escriba un número: Esto significa que la variable es de tipo <strong>numérica</strong>.</li>
+        <li>Escriba una fecha: Esto significa que la variable es de tipo <strong>fecha</strong>.</li>
+    </ul>
+    <p>
+        Por ejemplo, un criterio de búsqueda que incluye variables sería &quot;<span class="Typed">@nombre juan and @apellido perez</span>&quot; 
+	    y esto buscaría todas las personas cuyo nombre es Juan y que apellidan Perez. Usted puedde utilizar paréntesis y las
+	    operaciones lógicas <strong>and/or</strong> (y/o) para especificar una búsqueda más compleja.
+	    Por ejemplo, usted puede especificar &quot;<span class="Typed">(@nnombre juan or @nombre maria) and @apellido perez</span>&quot; 
+	    para buscar todas las personas cuyo nombre es Juan o Maria y que apellide Perez.
+    </p>
+    <p>Dependiendo del tipo de columna, la búsqueda tiene diferentes reglas: </p>
+    <p><strong>Búsqueda numérica</strong>: </p>
+    <p>
+        El operador de igualdad está implícito, así que para testear la igualdad simplemente se coloca el nombre de la variable
+	    seguido del valor que usted está buscando: &quot;<span class="Typed">@id 100</span>&quot;
+    </p>
+    <p>También puede utilizar los siguientes operadores en una búsqueda numérica:</p>
+    <ul>
+        <li><strong>&gt;</strong> para buscar mayor que &quot;<span class="Typed">@id &gt; 5</span>&quot;</li>
+        <li><strong>&lt;</strong> para buscar menor que &quot;<span class="Typed">@id &lt; 10</span>&quot;</li>
+        <li><strong>&gt;=</strong> para buscar mayor o igual que &quot;<span class="Typed">@salario &gt;=10000</span>&quot;</li>
+        <li><strong>&lt;=</strong> para buscar menor o igual que &quot;<span class="Typed">@salario &lt;= 50000</span>&quot;</li>
+        <li><strong>!=</strong> para buscar inegualdad &quot;<span class="Typed">@codigo != 5</span>&quot;
+        </li>
+        <li><strong>:</strong> para buscar un rango inclusivo &quot;<span class="Typed">@codigo 5:10</span>&quot; buscará todos los registros con código de 5 a 10 inclusive</li>
+        <li><strong>in()</strong> para buscar todos los valores en una lista &quot;<span class="Typed">@codigo in(20, 45, 67)</span>&quot; buscará todos los registros con código 20, 45 o 67. No puede haber un espacio entre la palabra IN y el paréntesis que abre (i.e. <span class="Typed">@codigo in (1, 2, 3)</span> no funcionará)</li>
+    </ul>
+    <p><b>Búsqueda en fechas</b>: </p>
+    <p>
+        Debe utilizarse exactamente igual que la búsqueda numérica excepto que las fechas deben estar
+	    escritas en la notación internacional estándar, el cual es: <strong>AAAA-MM-DD</strong>,   
+        donde AAAA es el año en el calendario Gregoriano, MM es el mes del año entre 01 
+        (Enero) y 12 (Diciembre), y DD es el día del mes entre 01 y 31. 
+        Por ejemplo, el cuarto día de Febrero del año 1995 se escribe en la notación estándar así:
+        1995-02-04.
+    </p>
+    <p>
+        El operador de igualdad es implícito, así que para buscar una fecha en particular solamente debe colocar 
+	    el nombre de la variable seguido del valor de fecha que usted desea buscar: &quot;<span class="Typed">@fechaRegistro 2001-6-1</span>&quot;
+    </p>
+    <p>Usted puede utilizar los siguientes operadores para una búsqueda de fechas:</p>
+    <ul>
+        <li><strong>&gt;</strong> busca las fechas mayores que &quot;<span class="Typed">@fechaNacimiento &gt; 1966-1-1</span>&quot;</li>
+        <li><strong>&lt;</strong> busca las fechas menores que &quot;<span class="Typed">@fechaNacimiento &lt; 2012-5-3</span>&quot;</li>
+        <li><strong>&gt;=</strong> busca las fechas mayores o iguales que &quot;<span class="Typed">@fechaNacimiento &gt;= 1966-1-1</span>&quot;</li>
+        <li><strong>&lt;=</strong> busca las fechas menores o iguales que &quot;<span class="Typed">@fechaNacimiento &lt;= 1966-1-1</span>&quot;</li>
+        <li><strong>!=</strong> busca las fechas diferentes de &quot;<span class="Typed">@fechaRegistro != 2001-5-1</span>&quot; </li>
+        <li><strong>:</strong> busca un rango inclusivo &quot;<span class="Typed">@fechaRegistro 2011-1-1:2011-5-1</span>&quot; buscará todos los registros con una fecha de registro entre el 1ero de Enero al 1ero de Mayo de 2011 inclusive</li>
+    </ul>
+    <p>
+        Adicionalmente, usted puede utilizar funciones <strong>$year</strong>, <strong>$month</strong> y <strong>$day</strong> que se aplicarán
+        a la variable de fecha. Por ejemplo, para buscar las personas cuyo cumpleaños es el 5 de Mayo se escribe:
+        &quot;<span class="Typed">$day(@fechaNacimiento) 5 and $month(@fechaNacimiento) 5</span>&quot;. 
+    </p>
+    <p>Por supuesto, usted puede utilizar los operadores de comparación con estas funciones.</p>
+    <p>
+        <strong>Búsqueda de texto simple:</strong>
+    </p>
+    <p>
+        Una búsqueda de texto simple busca textos usando dos expresiones muy simples:
+    </p>
+    <ul>
+        <li>Búsqueda simple de una palabra, o parte de una palabra, utilizando el operador opcional *. Por ejemplo &quot;<span class="Typed">@nombre juan* and @apellido *erez</span>&quot; </li>
+        <li>Una búsqueda simple de un grupo de palabras en comillas dobles: &quot;<span class="Typed">@nombre &quot;Ana Maria&quot; and @apellido Perez</span>&quot;</li>
+    </ul>
+    <p><b>Búsqueda de texto completo</b>: </p>
+    <p>
+        Una búsqueda de texto completo es similar a la búsqueda simple, pero trata de ser un poco más inteligente para encontrar
+	    lo que usted está buscando. 
+    </p>
+    <p>
+        En este tipo de búsqueda, cuando usted escribe &quot;<span class="Typed">@tipoObjeto flor</span>&quot; el sistema buscará
+	    todas las formas de flor, incluyendo inflexiones. Por ello, usted puede encontrar registros con flor, flores, etc.
+    </p>
+    <p>En este tipo de búsqueda usted tambien puede utilizar lo siguiente:</p>
+    <ul>
+        <li>Todas las formas de inflexión de flor: <span class="Typed">@tipoObjeto flor</span></li>
+        <li>Todas las formas de inflexión de &quot;flores florecen&quot;: <span class="Typed">@tipoObjeto &quot;flores florecen&quot;</span></li>
+        <li>Exactamente flores y formas de florecer:   <span class="Typed">@tipoObjeto +flores and @tipoObjeto florecer</span></li>
+        <li>El texto flores está cerca del texto florecer:  @tipoObjeto {flores florecer}</li>
+    </ul>
+    <p><b>Búsqueda booleana</b>: </p>
+    <p>
+        Este es el tipo más simple de variable. Los únicos valores que se permiten aquí son (true significa verdadero):
+	    true (o 1) and false (ó 0)
+    </p>
+</body>
+</html>

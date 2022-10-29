@@ -1,0 +1,12 @@
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\bin\Release\Cognos.Negocio.dll.config
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\bin\Release\Cognos.Negocio.dll
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\bin\Release\Cognos.Negocio.pdb
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\bin\Release\EntityFramework.dll
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\bin\Release\EntityFramework.xml
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\obj\Release\Cognos.Negocio.csproj.AssemblyReference.cache
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\obj\Release\Cognos.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\obj\Release\Cognos.Negocio.csproj.CopyComplete
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\obj\Release\Cognos.Negocio.dll
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\obj\Release\Cognos.Negocio.pdb

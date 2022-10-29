@@ -1,0 +1,25 @@
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Consola\obj\Debug\Cognos.Consola.csproj.AssemblyReference.cache
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Consola\obj\Debug\Cognos.Consola.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Consola\obj\Debug\Cognos.Consola.csproj.CoreCompileInputs.cache
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Consola\bin\Debug\Cognos.Consola.exe.config
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Consola\bin\Debug\Cognos.Consola.exe
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Consola\bin\Debug\Cognos.Consola.pdb
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Consola\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Consola\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Consola\obj\Debug\Cognos.Consola.csproj.AssemblyReference.cache
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Consola\obj\Debug\Cognos.Consola.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Consola\obj\Debug\Cognos.Consola.csproj.CoreCompileInputs.cache
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Consola\obj\Debug\Cognos.Consola.csproj.CopyComplete
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Consola\obj\Debug\Cognos.Consola.exe
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Consola\obj\Debug\Cognos.Consola.pdb
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Consola\bin\Debug\Cognos.Consola.exe.config
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Consola\bin\Debug\Cognos.Consola.exe
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Consola\bin\Debug\Cognos.Consola.pdb
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Consola\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Consola\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Consola\obj\Debug\Cognos.Consola.csproj.AssemblyReference.cache
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Consola\obj\Debug\Cognos.Consola.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Consola\obj\Debug\Cognos.Consola.csproj.CoreCompileInputs.cache
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Consola\obj\Debug\Cognos.Consola.csproj.CopyComplete
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Consola\obj\Debug\Cognos.Consola.exe
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Consola\obj\Debug\Cognos.Consola.pdb

@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<changes>
+    <change version="1.15.0" date="30/01/2014">
+        <![CDATA[
+        Se añadio un filtro a proveedor por ciudad al momento de añadir Examenes complementarios o derivaciones.<br />
+        Se añadio el gasto de la consulta al total de cada poliza.
+        ]]>
+    </change>
+    <change version="1.16.0" date="04/02/2014">
+        <![CDATA[
+        La receta, los ex. Complementarios, la especialización e internación respetan la fecha del caso médico.<br />
+        Agregado un botón que permite ir directamente a la parte de gastos desde el caso médico y viceversa.<br />
+        Agregado campo Género en Paciente.<br />
+        Ya no se muestra Antedcedentes Ginecobstetricos si el paciente es del género masculino.<br />
+        En caso contrario los Antedcedentes Ginecobstetricos se muestran en 3 columnas.<br />
+        Agregado botón de reconsulta en caso médico para los que son menores a 10 días.
+        ]]>
+    </change>
+    <change version="1.17.0" date="05/02/2014">
+        <![CDATA[
+        Agregados iconos a las pestañas de caso médico.<br />
+        Agregado el menú “Gastos económicos”.<br />
+        Agregado en la parte superior el nombre del proveedor y el NIT en las pestañas receta, examen complementario, emergencia, especialización e internación mostrar.
+        ]]>
+    </change>
+    <change version="1.18.0" date="14/02/2014">
+        <![CDATA[
+        Agregada opción para ir de un caso médico a gastos y viceversa.<br />
+        Agregado opción de reconsulta.<br />
+        Agregado campo Género al paciente.<br />
+        El campo antecedentes ginecobstetricos no se muestra si el paciente es de género masculino.<br />
+        El campo antecedentes ginecobstetricos se muestra en 3 columnas.
+        ]]>
+    </change>
+    <change version="1.19.0" date="28/02/2014">
+        Agregada la parte de Sinestros del SOAT.
+    </change>
+    <change version="1.20.0" date="11/03/2014">
+        Cambios significativos en SOAT.
+    </change>
+    <change version="1.21.0" date="13/03/2014">
+        Arreglos significativos en SOAT.
+    </change>
+    <change version="1.22.0" date="14/03/2014">
+        <![CDATA[
+        Arreglos significativos en SOAT.<br />
+        Añadidos Zona o localidad y Sindicato al Siniestro.
+        ]]>
+    </change>
+    <change version="1.23.0" date="20/03/2014">
+        <![CDATA[
+        Se mejoró la busqueda de Siniestros de SOAT.<br />
+        Agregado filtro por ciudad de usuario en la lista de Siniestros de SOAT.<br />
+        Añadida la opcion de ver Accidentados en la lista de Siniestros de SOAT.<br />
+        Agregada opcion para ingresar nuevas gestiones médicas.<br />
+        Agregada opcion para ingresar nuevos gastos médicos.
+        ]]>
+    </change>
+    <change version="1.24.0" date="25/03/2014">
+        <![CDATA[
+        Se arreglo la Importación de pacientes.<br />
+        Se arreglo la busqueda de siniestros de SOAT.<br />
+        Se agrego Lugar en la información de las polizas.
+        ]]>
+    </change>
+    <change version="1.25.0" date="28/03/2014">
+        Se añadio archivos adjuntos en Caso medico y Gastos.
+    </change>
+    <change version="1.26.0" date="04/04/2014">
+        <![CDATA[
+        Se agrego la relacion de médico con cliente permitiendo darle acceso a un médico a los clientes seleccionados.<br />
+        Se cambio los permisos de eliminar en SOAT para que incluyan todas las tablas.<br />
+        Se cambio el color de los iconos en Accidentado SOAT.<br />
+        Se añadio la columna Total Pagado en la lista de Accidentados SOAT.
+        ]]>
+    </change>
+    <change version="1.27.0" date="15/04/2014">
+        <![CDATA[
+        Se cambio la forma de seleccionar los estudios complementarios permitiendo seleccionar multiples.<br />
+        Se añadio un acceso directo al historial del paciente desde la lista de casos médicos.<br />
+        Se arreglo el filtro de proveedores por ciudad en el detalle del caso médico.
+        ]]>
+    </change>
+    <change version="1.28.0" date="28/04/2014">
+        <![CDATA[
+        Añadida busqueda avanzada en siniestros SOAT.<br />
+        Se añadio los campos de causa del siniestro y lugar de la venta de la poliza.<br />
+        Se agrego el icono de datos adjuntos a los accidentados mostrados en la lista de siniestros.<br />
+        Se añadio la exportación a excel de SOAT.
+        ]]>
+    </change>
+    <change version="1.29.0" date="06/05/2014">
+        <![CDATA[
+        Se cambio la forma de editar accidentados en SOAT.<br />
+        Se cambio la tabla de gastos ejecutados al editar el cliente para que se vean totales y se expandan en detalle.<br />
+        Se corrigieron varios errores.
+        ]]>
+    </change>
+    <change version="1.30.0" date="21/05/2014">
+        <![CDATA[
+        Se separo la ventana de enfermeria.<br />
+        Se arreglaron errores en casos medicos.
+        ]]>
+    </change>
+    <change version="1.31.0" date="28/05/2014">
+        <![CDATA[
+        Añadida comunicacion con Alianza para actualizacion de Asegurados y polizas.
+        ]]>
+    </change>
+    <change version="1.32.0" date="28/05/2014">
+        <![CDATA[
+        Se mejoro la busqueda de Siniestros SOAT.<br />
+        Se arreglaron errores en SOAT.
+        ]]>
+    </change>
+    <change version="1.36.0" date="28/05/2014">
+        <![CDATA[
+        Se añadio La lista de Clasificación Internacional de Enfermedades para diagnostico presuntivo a Caso Médico y Emergencia.<br />
+        Se arreglaron errores menores.
+        ]]>
+    </change>
+    <change version="1.40.0" date="28/07/2014">
+        <![CDATA[
+        Se añadio Pre-liquidación en SOAT.<br />
+        Se arreglaron errores menores.
+        ]]>
+    </change>
+    <change version="1.41.0" date="31/07/2014">
+        <![CDATA[
+        Se añadio 2 diagnosticos presuntivos mas en Caso Médico.<br />
+        Se arreglaron errores menores.
+        ]]>
+    </change>
+    <change version="1.50.0" date="01/10/2014">
+        <![CDATA[
+        Se añadio el manejo de reconsultas como nuevos casos.
+        ]]>
+    </change>
+    <change version="1.51.0" date="15/10/2014">
+        <![CDATA[
+        Se mejoro imprimir recetas, laboratorios  y derivaciones.<br />
+        Se añadio imprimir Historial.
+        ]]>
+    </change>
+    <change version="1.52.0" date="22/10/2014">
+        <![CDATA[
+        Se añadio los medicamentos del LINAME a Recetas.<br />
+        Se arreglaron errores menores.
+        ]]>
+    </change>
+    <change version="1.53.0" date="04/11/2014">
+        <![CDATA[
+        Se añadio reportes de Enfermeria y Farmacia.<br />
+        Se arreglaron errores menores.
+        ]]>
+    </change>
+    <change version="1.54.0" date="11/11/2014">
+        <![CDATA[
+        Se añadio el tablero de control de casos medicos.<br />
+        Se arreglaron errores menores.
+        ]]>
+    </change>
+    <change version="1.55.0" date="24/11/2014">
+        <![CDATA[
+        Se puso todos los textos en mayuscula.<br />
+        Se aumento el cuadro de observaciones dentro del módulo enfermería.<br />
+        Se corrigio la hora al crear casos médicos.<br />
+        Se acomodaron los laboratorios.<br />
+        Se acomodaron las impresiones de recetas, laboratorios y derivaciones.<br />
+        Se añadio ordenamiento por las columnas en la lista de casos medicos.<br />
+        Se arreglaron errores menores.
+        ]]>
+    </change>
+</changes>

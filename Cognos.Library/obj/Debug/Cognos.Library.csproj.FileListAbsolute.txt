@@ -1,0 +1,32 @@
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Library\bin\Debug\Cognos.Library.dll
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Library\bin\Debug\Cognos.Library.pdb
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Library\bin\Debug\EntityFramework.dll
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Library\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Library\bin\Debug\EntityFramework.xml
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Library\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Library\obj\Debug\Cognos.Library.csproj.AssemblyReference.cache
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Library\obj\Debug\Cognos.Library.csproj.CoreCompileInputs.cache
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Library\obj\Debug\Cognos.Library.csproj.CopyComplete
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Library\obj\Debug\Cognos.Library.dll
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Library\obj\Debug\Cognos.Library.pdb
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Library\bin\Debug\Cognos.Library.dll
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Library\bin\Debug\Cognos.Library.pdb
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Library\bin\Debug\EntityFramework.dll
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Library\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Library\bin\Debug\EntityFramework.xml
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Library\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Library\obj\Debug\Cognos.Library.csproj.CoreCompileInputs.cache
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Library\obj\Debug\Cognos.Library.csproj.CopyComplete
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Library\obj\Debug\Cognos.Library.dll
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Library\obj\Debug\Cognos.Library.pdb
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Library\bin\Debug\Cognos.Library.dll
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Library\bin\Debug\Cognos.Library.pdb
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Library\bin\Debug\EntityFramework.dll
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Library\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Library\bin\Debug\EntityFramework.xml
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Library\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Library\obj\Debug\Cognos.Library.csproj.AssemblyReference.cache
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Library\obj\Debug\Cognos.Library.csproj.CoreCompileInputs.cache
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Library\obj\Debug\Cognos.Library.csproj.CopyComplete
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Library\obj\Debug\Cognos.Library.dll
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Library\obj\Debug\Cognos.Library.pdb

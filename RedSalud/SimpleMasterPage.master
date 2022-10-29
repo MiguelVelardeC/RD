@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="SimpleMasterPage.master.cs"
+    Inherits="SimpleMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head id="Head1" runat="server">
+        <title></title>
+	    <asp:Literal ID="JqueryAndMainMenuScript" runat="server"></asp:Literal>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </head>
+    <body>
+        <form id="form1" runat="server">
+        <div class="Page">
+            <%--PAGE HEADER--%>
+            <div id="header">
+			    <div id="logoContent" style="vertical-align:middle;">
+				    <asp:Image ID="imgHeaderLogo" runat="server" ImageUrl="~/Images/logo_RedSalud.png" AlternateText="RedSalud"
+					    Height="53" style="float:left;"/>
+                    <div class="left">
+                        <asp:Label ID="Label1" CssClass="TitleCompany"
+                            Text="<%$ Resources: Glossary, ProjectName %>"
+                            runat="server" />
+                        <asp:Label ID="Label2" Text="<%$ Resources: Glossary, ProjectNameSubTitle %>" CssClass="SubTitleCompany" runat="server" />
+                    </div>
+			    </div>
+		    </div>
+            <%--PAGE BODY--%>
+            <div id="body" style="margin-left:5px;margin-right:5px;">
+                <asp:ContentPlaceHolder ID="cp" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        </form>
+    </body>
+</html>

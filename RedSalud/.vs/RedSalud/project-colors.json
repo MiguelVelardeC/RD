@@ -1,0 +1,46 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    },
+    "4150486d-0f09-41db-b2e4-ecb2914150b8": {
+      "ProjectGuid": "4150486d-0f09-41db-b2e4-ecb2914150b8",
+      "DisplayName": "RedSalud",
+      "ColorIndex": 0
+    },
+    "27bb3bb5-4f01-443f-8af5-ea93afc8af69": {
+      "ProjectGuid": "27bb3bb5-4f01-443f-8af5-ea93afc8af69",
+      "DisplayName": "Cognos.Library",
+      "ColorIndex": 1
+    },
+    "91ea8b7a-1ab4-4403-a167-9a769fd5a195": {
+      "ProjectGuid": "91ea8b7a-1ab4-4403-a167-9a769fd5a195",
+      "DisplayName": "Cognos.Negocio.Api",
+      "ColorIndex": 2
+    },
+    "59ee49d4-a4d8-4f95-b52f-4d4f6b7a5620": {
+      "ProjectGuid": "59ee49d4-a4d8-4f95-b52f-4d4f6b7a5620",
+      "DisplayName": "Cognos.Negocio",
+      "ColorIndex": 3
+    },
+    "6ea7b7a9-7c04-451c-9866-6299139f56e8": {
+      "ProjectGuid": "6ea7b7a9-7c04-451c-9866-6299139f56e8",
+      "DisplayName": "Cognos.Consola",
+      "ColorIndex": 4
+    },
+    "df67579e-c7cc-416e-82f7-ece835fa92d7": {
+      "ProjectGuid": "df67579e-c7cc-416e-82f7-ece835fa92d7",
+      "DisplayName": "AgoraIO",
+      "ColorIndex": 5
+    },
+    "8c9ac9f2-7e0f-4c70-8f17-3aaa370e2f38": {
+      "ProjectGuid": "8c9ac9f2-7e0f-4c70-8f17-3aaa370e2f38",
+      "DisplayName": "VideoLlamada.TokenGenerator.AgoraIO",
+      "ColorIndex": 6
+    }
+  },
+  "NextColorIndex": 7
+}

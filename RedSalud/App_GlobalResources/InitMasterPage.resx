@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CloseLabel" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="EnterFeedbackTitle" xml:space="preserve">
+    <value>Ingresar Comentario</value>
+  </data>
+  <data name="MensajeArchivoVacio" xml:space="preserve">
+    <value>Empty resourceFile in menu item</value>
+  </data>
+  <data name="MensajeItemPublicoVacio" xml:space="preserve">
+    <value>Menu no tiene un item publico</value>
+  </data>
+  <data name="MensajeMenuNoPublico" xml:space="preserve">
+    <value>Item del menu no es público y no tiene una clase definida en el item</value>
+  </data>
+  <data name="MensajeValorInvalidoItem" xml:space="preserve">
+    <value>Valor inválido para un item público</value>
+  </data>
+  <data name="MenuAbout" xml:space="preserve">
+    <value>Acerca de</value>
+  </data>
+  <data name="MenuAgregarConsolidacion" xml:space="preserve">
+    <value>Agregar Consolidación</value>
+  </data>
+  <data name="MenuAssignRoles" xml:space="preserve">
+    <value>Asignar Roles</value>
+  </data>
+  <data name="MenuAssignRolesByUser" xml:space="preserve">
+    <value>Asignar Roles por Usuario</value>
+  </data>
+  <data name="MenuGestionMedica" xml:space="preserve">
+    <value>Gestión Médica</value>
+  </data>
+  <data name="MenuConcepto" xml:space="preserve">
+    <value>Conceptos</value>
+  </data>
+  <data name="MenuConfiguracion" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="MenuConsolidacion" xml:space="preserve">
+    <value>Consolidación</value>
+  </data>
+  <data name="MenuDefinePermissionRole" xml:space="preserve">
+    <value>Definir Permisos a Roles</value>
+  </data>
+  <data name="MenuDefinePermissionUser" xml:space="preserve">
+    <value>Definir Permisos a Usuarios</value>
+  </data>
+  <data name="MenuEspecialidad" xml:space="preserve">
+    <value>Lista de Especialidades</value>
+  </data>
+  <data name="MenuGastosEconomicos" xml:space="preserve">
+    <value>Gastos Económicos</value>
+  </data>
+  <data name="MenuHome" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="MenuImportarPaciente" xml:space="preserve">
+    <value>Importar pacientes</value>
+  </data>
+  <data name="MenuListAseguradora" xml:space="preserve">
+    <value>Lista de Clientes</value>
+  </data>
+  <data name="MenuListCaso" xml:space="preserve">
+    <value>Ver Listado de Casos Medicos</value>
+  </data>
+  <data name="MenuListCasoAprobation" xml:space="preserve">
+    <value>Lista de Casos por Aprobar</value>
+  </data>
+  <data name="MenuListCiudad" xml:space="preserve">
+    <value>Lista de Ciudades</value>
+  </data>
+  <data name="MenuListConsolidacion" xml:space="preserve">
+    <value>Lista de Consolidados</value>
+  </data>
+  <data name="MenuListMedico" xml:space="preserve">
+    <value>Lista de Médicos</value>
+  </data>
+  <data name="MenuListPaciente" xml:space="preserve">
+    <value>Lista de Pacientes</value>
+  </data>
+  <data name="MenuListPoliza" xml:space="preserve">
+    <value>Lista de Polizas</value>
+  </data>
+  <data name="MenuListProveedor" xml:space="preserve">
+    <value>Lista de Proveedores</value>
+  </data>
+  <data name="MenuListProveedorUser" xml:space="preserve">
+    <value>Lista de Usuarios Por Proveedor</value>
+  </data>
+  <data name="MenuListRedMedica" xml:space="preserve">
+    <value>Lista de Redes Medicas</value>
+  </data>
+  <data name="MenuListReporteAsegurado" xml:space="preserve">
+    <value>Reporte por Asegurado</value>
+  </data>
+  <data name="MenuListReportes" xml:space="preserve">
+    <value>Reportes</value>
+  </data>
+  <data name="MenuListasReportesSiniestralidad" xml:space="preserve">
+    <value>Reporte de Siniestralidad</value>
+  </data>
+  <data name="MenuListSOAT" xml:space="preserve">
+    <value>Ver Listado de Casos SOAT</value>
+  </data>
+  <data name="MenuNewSOAT" xml:space="preserve">
+    <value>Crear Nuevo Caso</value>
+  </data>
+  <data name="MenuNuevoCaso" xml:space="preserve">
+    <value>Nuevo Caso</value>
+  </data>
+  <data name="MenuOficinas" xml:space="preserve">
+    <value>Oficinas</value>
+  </data>
+  <data name="MenuListas" xml:space="preserve">
+    <value>Ver Listas</value>
+  </data>
+  <data name="MenuPresentacion" xml:space="preserve">
+    <value>Presentación de medicamentos</value>
+  </data>
+  <data name="MenuProtocolo" xml:space="preserve">
+    <value>Protocolo</value>
+  </data>
+  <data name="MenuRed" xml:space="preserve">
+    <value>Red Medica</value>
+  </data>
+  <data name="MenuSecurity" xml:space="preserve">
+    <value>Seguridad y Administración</value>
+  </data>
+  <data name="MenuSOAT" xml:space="preserve">
+    <value>Gestión SOAT</value>
+  </data>
+  <data name="MenuTipoCambio" xml:space="preserve">
+    <value>Tipos de Cambio</value>
+  </data>
+  <data name="MenuTipoEnfermedad" xml:space="preserve">
+    <value>Tipo de Enfermedad</value>
+  </data>
+  <data name="MenuTipoEstudio" xml:space="preserve">
+    <value>Tipo de Estudio</value>
+  </data>
+  <data name="MenuUserList" xml:space="preserve">
+    <value>Lista de Usuarios</value>
+  </data>
+  <data name="MenuVersionInformation" xml:space="preserve">
+    <value>Información de Versión</value>
+  </data>
+  <data name="SubmitfeedbackLabel" xml:space="preserve">
+    <value>Ingresar comentario</value>
+  </data>
+  <data name="MenuCasoEmergencias" xml:space="preserve">
+    <value>Emergencias</value>
+  </data>
+  <data name="MenuCasoEnfermeria" xml:space="preserve">
+    <value>Enfermeria</value>
+  </data>
+  <data name="MenuCasoMedico" xml:space="preserve">
+    <value>Medicina General</value>
+  </data>
+  <data name="MenuListCasoEmergencia" xml:space="preserve">
+    <value>Ver Listado de Casos de Emergencia</value>
+  </data>
+  <data name="MenuListCasoEnfermeria" xml:space="preserve">
+    <value>Ver Listado de Casos de Enfermeria</value>
+  </data>
+  <data name="MenuDashboardSOAT" xml:space="preserve">
+    <value>Tablero de Control</value>
+  </data>
+  <data name="MenuListReporteFarmacia" xml:space="preserve">
+    <value>Reporte Farmacia</value>
+  </data>
+  <data name="MenuFarmacias" xml:space="preserve">
+    <value>Farmacias</value>
+  </data>
+  <data name="MenuGestionEconomica" xml:space="preserve">
+    <value>Gestión Económica</value>
+  </data>
+  <data name="MenuParametrizacion" xml:space="preserve">
+    <value>Parametrización</value>
+  </data>
+  <data name="MenuRoles" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="MenuMiCalendario" xml:space="preserve">
+    <value>Mis Citas Programadas</value>
+  </data>
+  <data name="MenuCallCenter" xml:space="preserve">
+    <value>Call Center Citas</value>
+  </data>
+  <data name="MenuImportarParaNacional" xml:space="preserve">
+    <value>Cargar Pólizas Diario</value>
+  </data>
+  <data name="MenuExportFarmaciaChavez" xml:space="preserve">
+    <value>Exportar datos para Farmacia</value>
+  </data>
+  <data name="MenuListReporteCasoMedico" xml:space="preserve">
+    <value>Reporte General</value>
+  </data>
+  <data name="MenuSeePolizas" xml:space="preserve">
+    <value>Ver Polizas Importadas</value>
+  </data>
+  <data name="MenuListReporteEnfermeria" xml:space="preserve">
+    <value>Reporte Enfermeria</value>
+  </data>
+  <data name="MenuCasoMedicoDashboard" xml:space="preserve">
+    <value>Tablero de Control</value>
+  </data>
+  <data name="MenuPagoGastosList" xml:space="preserve">
+    <value>Pagos SOAT</value>
+  </data>
+  <data name="MenuPreliquidacionList" xml:space="preserve">
+    <value>Lista de Preliquidaciones</value>
+  </data>
+  <data name="MenuListReporteEmergencia" xml:space="preserve">
+    <value>Reporte Emergencia</value>
+  </data>
+  <data name="MenuListReporteOdontologia" xml:space="preserve">
+    <value>Reporte Odontología</value>
+  </data>
+  <data name="MenuDashboardDesgravamen" xml:space="preserve">
+    <value>Panel de Control de Desgravamen</value>
+  </data>
+  <data name="MenuDesgravamen" xml:space="preserve">
+    <value>Gestión Desgravamen</value>
+  </data>
+  <data name="MenuEstudiosPropuestosAsegurados" xml:space="preserve">
+    <value>Administrar Estudios para Propuestos Asegurados</value>
+  </data>
+  <data name="MenuListaPropuestosAsegurados" xml:space="preserve">
+    <value>Administrar Propuestos Asegurados</value>
+  </data>
+  <data name="MenuAgendaMedicoDesgravamen" xml:space="preserve">
+    <value>Atención de Propuesto Asegurados</value>
+  </data>
+  <data name="MenuBitacora" xml:space="preserve">
+    <value>Ver Bitácora</value>
+  </data>
+  <data name="MenuRecuperacionCitasEliminadas" xml:space="preserve">
+    <value>Recuperar Citas Eliminadas</value>
+  </data>
+  <data name="MenuMedicoDesgravamenLista" xml:space="preserve">
+    <value>Lista de Medicos Desgravamen</value>
+  </data>
+  <data name="MenuProveedorDesgravamenLista" xml:space="preserve">
+    <value>Lista de Proveedores Desgravamen</value>
+  </data>
+  <data name="MenuCopagoLista" xml:space="preserve">
+    <value>Lista de Copago Pendiente de Cobro</value>
+  </data>
+  <data name="MenuDesgravamenRevision" xml:space="preserve">
+    <value>Lista de Revisiones para Ejecutivos</value>
+  </data>
+  <data name="MenuListDerivaciones" xml:space="preserve">
+    <value>Listado de Derivaciones</value>
+  </data>
+  <data name="MenuListReporteCasoMedicoCompleto" xml:space="preserve">
+    <value>Reporte de Casos Médicos</value>
+  </data>
+  <data name="MenuListReporteLaboratorioPorAtencion" xml:space="preserve">
+    <value>Reporte de Examenes Complementarios</value>
+  </data>
+  <data name="MenuListReporteSiniestralidad" xml:space="preserve">
+    <value>Pacientes</value>
+  </data>
+  <data name="MenuListReporteSiniestralidadCliente" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="MenuCasoOdontologia" xml:space="preserve">
+    <value>Casos Odontologia</value>
+  </data>
+  <data name="MenuListCasoOdontologia" xml:space="preserve">
+    <value>Lista de Odontologia</value>
+  </data>
+  <data name="MenuNuevoCasoEmergencia" xml:space="preserve">
+    <value>Nuevo Caso</value>
+  </data>
+  <data name="MenuNuevoCasoEnfermeria" xml:space="preserve">
+    <value>Nuevo Caso</value>
+  </data>
+  <data name="MenuUserServiceList" xml:space="preserve">
+    <value>Lista de Usuarios de Servicio</value>
+  </data>
+  <data name="MenuListVideoLLamadas" xml:space="preserve">
+    <value>Listado de video llamadas</value>
+  </data>
+  <data name="MenuListReporteVideoLlamadas" xml:space="preserve">
+    <value>Reporte de Video Llamadas</value>
+  </data>
+  <data name="MenuListReporteVideoLlamadasConsolidadoCitas" xml:space="preserve">
+    <value>Consolidado de Citas</value>
+  </data>
+  <data name="MenuListReporteVideoLlamadasAtencionesPorMes" xml:space="preserve">
+    <value>Atenciones por mes</value>
+  </data>
+  <data name="MenuListReporteVideoLlamadasDistribucionAtencionPlaza" xml:space="preserve">
+    <value>Distribución de atenciones por plaza</value>
+  </data>
+  <data name="MenuListReporteVideoLlamadasDiagnosticoPresuntivo" xml:space="preserve">
+    <value>Diagnóstico Presuntivo</value>
+  </data>
+  <data name="MenuListReporteVideoLlamadasCantidadLlamadasHora" xml:space="preserve">
+    <value>Cantidad de video llamadas por hora</value>
+  </data>
+  <data name="MenuListReporteVideoLlamadasDistribucionAtencionMedico" xml:space="preserve">
+    <value>Distribución de atenciones por médico</value>
+  </data>
+  <data name="MenuListReporteVideoLlamadasUsuariosMayorUso" xml:space="preserve">
+    <value>Usuarios con mayor uso</value>
+  </data>
+  <data name="MenuListReporteVideoLlamadasCalificacionesObtenidasMedico" xml:space="preserve">
+    <value>Calificaciones obtenidas por médico</value>
+  </data>
+  <data name="MenuListReporteVideoLlamadasMedicamentosMasRecetados" xml:space="preserve">
+    <value>Medicamentos más recetados</value>
+  </data>
+  <data name="MenuListReporteVideoLlamadasRecetasExtendidas" xml:space="preserve">
+    <value>Recetas extendidas</value>
+  </data>
+  <data name="MenuNotificaciones" xml:space="preserve">
+    <value>Notificaciones</value>
+  </data>
+  <data name="MenuCambioFechas" xml:space="preserve">
+    <value>Gestionar Fechas</value>
+  </data>
+  <data name="MenuCEstudiosMedicos" xml:space="preserve">
+    <value>Gestionar Estudios Médicos</value>
+  </data>
+  <data name="MenuCitasMantenimiento" xml:space="preserve">
+    <value>Cambios en Citas</value>
+  </data>
+</root>

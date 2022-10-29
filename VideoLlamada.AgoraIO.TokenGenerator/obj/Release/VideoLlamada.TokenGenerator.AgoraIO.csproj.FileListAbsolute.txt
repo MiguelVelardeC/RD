@@ -1,0 +1,35 @@
+D:\User\Documents\Desarrollo\VideoLlamada\VideoLlamada.AgoraIO.TokenGenerator\bin\Release\VideoLlamada.AgoraIO.TokenGenerator.dll
+D:\User\Documents\Desarrollo\VideoLlamada\VideoLlamada.AgoraIO.TokenGenerator\bin\Release\VideoLlamada.AgoraIO.TokenGenerator.pdb
+D:\User\Documents\Desarrollo\VideoLlamada\VideoLlamada.AgoraIO.TokenGenerator\bin\Release\Crc32.NET.dll
+D:\User\Documents\Desarrollo\VideoLlamada\VideoLlamada.AgoraIO.TokenGenerator\bin\Release\Crc32.NET.xml
+D:\User\Documents\Desarrollo\VideoLlamada\VideoLlamada.AgoraIO.TokenGenerator\obj\Release\VideoLlamada.TokenGenerator.AgoraIO.csproj.AssemblyReference.cache
+D:\User\Documents\Desarrollo\VideoLlamada\VideoLlamada.AgoraIO.TokenGenerator\obj\Release\VideoLlamada.TokenGenerator.AgoraIO.csproj.CoreCompileInputs.cache
+D:\User\Documents\Desarrollo\VideoLlamada\VideoLlamada.AgoraIO.TokenGenerator\obj\Release\VideoLlamada.TokenGenerator.AgoraIO.csproj.CopyComplete
+D:\User\Documents\Desarrollo\VideoLlamada\VideoLlamada.AgoraIO.TokenGenerator\obj\Release\VideoLlamada.AgoraIO.TokenGenerator.dll
+D:\User\Documents\Desarrollo\VideoLlamada\VideoLlamada.AgoraIO.TokenGenerator\obj\Release\VideoLlamada.AgoraIO.TokenGenerator.pdb
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\bin\Release\VideoLlamada.AgoraIO.TokenGenerator.dll
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\bin\Release\VideoLlamada.AgoraIO.TokenGenerator.pdb
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\bin\Release\Crc32.NET.dll
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\bin\Release\Crc32.NET.xml
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Release\VideoLlamada.TokenGenerator.AgoraIO.csproj.AssemblyReference.cache
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Release\VideoLlamada.TokenGenerator.AgoraIO.csproj.CoreCompileInputs.cache
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Release\VideoLlamada.TokenGenerator.AgoraIO.csproj.CopyComplete
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Release\VideoLlamada.AgoraIO.TokenGenerator.dll
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Release\VideoLlamada.AgoraIO.TokenGenerator.pdb
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\bin\Release\VideoLlamada.AgoraIO.TokenGenerator.dll
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\bin\Release\VideoLlamada.AgoraIO.TokenGenerator.pdb
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\bin\Release\Crc32.NET.dll
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\bin\Release\Crc32.NET.xml
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Release\VideoLlamada.TokenGenerator.AgoraIO.csproj.AssemblyReference.cache
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Release\VideoLlamada.TokenGenerator.AgoraIO.csproj.CoreCompileInputs.cache
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Release\VideoLlamada.TokenGenerator.AgoraIO.csproj.CopyComplete
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Release\VideoLlamada.AgoraIO.TokenGenerator.dll
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Release\VideoLlamada.AgoraIO.TokenGenerator.pdb
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\bin\Release\VideoLlamada.AgoraIO.TokenGenerator.dll
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\bin\Release\VideoLlamada.AgoraIO.TokenGenerator.pdb
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\bin\Release\Crc32.NET.xml
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Release\VideoLlamada.TokenGenerator.AgoraIO.csproj.AssemblyReference.cache
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Release\VideoLlamada.TokenGenerator.AgoraIO.csproj.CoreCompileInputs.cache
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Release\VideoLlamada.TokenGenerator.AgoraIO.csproj.CopyComplete
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Release\VideoLlamada.AgoraIO.TokenGenerator.dll
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Release\VideoLlamada.AgoraIO.TokenGenerator.pdb

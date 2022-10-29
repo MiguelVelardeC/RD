@@ -1,0 +1,611 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+
+This is a hierarchical menue definition, where each menu is specified as follows:
+
+A Menu node can have other children Menu nodes and each node has the following
+attributes defined:
+
+resourceFile:  The name of the Global Resource file where we can find the menu text
+resourceItem:  The name of the Global Resource item where we can find the menu text
+url:           The URL for the menu.  This is optional.
+public:        true/false indicates if access to the menu is public.
+class:         if the menu is not public, the name of the class that the user 
+               must have for the menu to be visible.
+-->
+
+<Home>
+  <!-- First Menu: Inicio -->
+  <Menu resourceFile="InitMasterPage"
+                resourceItem="MenuHome"
+                url="~/MainPage.aspx"
+                public="true">
+  </Menu>
+  <!-- Third Menu: Configuracion -->
+  <Menu resourceFile="InitMasterPage"
+              resourceItem="MenuConfiguracion"
+              public="false"
+              class="CLASIFICADOR">
+    <Menu resourceFile="InitMasterPage"
+          resourceItem="MenuImportarPaciente"
+          url="~/Paciente/ImportarPaciente.aspx"
+              class="PACIENTE_IMPORT"
+          public="false">
+    </Menu>
+
+	<Menu resourceFile="InitMasterPage"
+		 resourceItem="MenuNotificaciones"
+		 url="~/Mantenimiento/Notificacion/Notificacion.aspx"
+	     class="MANTENIMIENTO"
+		 public="false">
+	  </Menu>
+
+    <!-- Sub Menu: Listas-->
+    <Menu resourceFile="InitMasterPage"
+                resourceItem="MenuListas"
+                public="true">
+      <Menu resourceFile="InitMasterPage"
+            resourceItem="MenuListPaciente"
+            url="~/Paciente/PacienteList.aspx"
+                class="PACIENTE"
+            public="false">
+      </Menu>
+      <Menu resourceFile="InitMasterPage"
+            resourceItem="MenuListVideoLLamadas"
+            url="~/CitasVideoLLamadas/CitasVideoLLamadasList.aspx"
+                class="PACIENTE"
+            public="false">
+      </Menu>
+      <Menu resourceFile="InitMasterPage"
+            resourceItem="MenuListPoliza"
+            url="~/Paciente/PolizaList.aspx"
+                class="PACIENTE"
+            public="false">
+      </Menu>
+      <Menu resourceFile="InitMasterPage"
+       resourceItem="MenuListAseguradora"
+       url="~/Cliente/ClienteList.aspx"
+       public="true">
+      </Menu>
+      <Menu resourceFile="InitMasterPage"
+         resourceItem="MenuListCiudad"
+         url="~/Clasificadores/Ciudad/CiudadList.aspx"
+         public="true">
+      </Menu>
+      <Menu resourceFile="InitMasterPage"
+         resourceItem="MenuListMedico"
+         url="~/Medico/MedicoList.aspx"
+         public="true">
+      </Menu>
+      <Menu resourceFile="InitMasterPage"
+         resourceItem="MenuEspecialidad"
+         public="false"
+         class="CLASIFICADOR"
+         url="~/Clasificadores/Especialidad/EspecialidadList.aspx">
+      </Menu>
+      <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuListProveedor"
+        url="~/Proveedor/ProveedorList.aspx"
+        class="PROVEEDOR"
+        public="false">
+      </Menu>
+      <Menu resourceFile="InitMasterPage"
+         resourceItem="MenuListProveedorUser"
+         url="~/Proveedor/ProveedorUserList.aspx"
+         class="PROVEEDOR"
+         public="false">
+      </Menu>
+      <Menu resourceFile="InitMasterPage"
+         resourceItem="MenuListRedMedica"
+         url="~/RedMedica/RedMedicaList.aspx"
+         class="MEDIC"
+         public="false">
+      </Menu>
+    </Menu>
+    <Menu resourceFile="InitMasterPage"
+                resourceItem="MenuParametrizacion"
+                public="true">
+      <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuPresentacion"
+        public="false"
+        class="CLASIFICADOR"
+        url="~/Clasificadores/Presentacion/PresentacionList.aspx">
+      </Menu>
+      <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuProtocolo"
+        public="false"
+        class="CLASIFICADOR"
+        url="~/Clasificadores/Protocolo/ProtocoloList.aspx">
+      </Menu>
+      <Menu resourceFile="InitMasterPage"
+              resourceItem="MenuTipoEnfermedad"
+              public="false"
+              class="CLASIFICADOR"
+              url="~/Clasificadores/TipoEnfermedad/TipoEnfermedadList.aspx">
+      </Menu>
+      <Menu resourceFile="InitMasterPage"
+              resourceItem="MenuTipoEstudio"
+              public="false"
+              class="CLASIFICADOR"
+              url="~/Clasificadores/TipoEstudio/TipoEstudioList.aspx">
+      </Menu>
+    </Menu>
+	<Menu resourceFile="InitMasterPage"
+				  resourceItem="MenuCitasMantenimiento"
+				  public="true">
+		  <Menu resourceFile="InitMasterPage"
+				  resourceItem="MenuCambioFechas"
+				  public="false"
+				  class="MANTENIMIENTO"
+				  url="~/Mantenimiento/Citas/CambioFechas.aspx">
+		  </Menu>
+		  <Menu resourceFile="InitMasterPage"
+				  resourceItem="MenuCEstudiosMedicos"
+				  public="false"
+				  class="MANTENIMIENTO"
+				  url="~/Mantenimiento/Citas/EstudiosMedicos.aspx">
+		  </Menu>
+	  </Menu> 
+  </Menu>
+  <!-- Second Menu: Seguridad -->
+  <Menu resourceFile="InitMasterPage"
+          resourceItem="MenuSecurity"
+          public="false"
+          class="SECURITY">
+    <Menu resourceFile="InitMasterPage"
+              resourceItem="MenuUserList"
+              public="false"
+              class="SECURITY"
+              url="~/Security/UserList.aspx">
+    </Menu>
+    <Menu resourceFile="InitMasterPage"
+              resourceItem="MenuUserServiceList"
+              public="false"
+              class="SECURITY"
+              url="~/Security/UserServiceList.aspx">
+    </Menu>
+    <Menu resourceFile="InitMasterPage"
+            resourceItem="MenuRoles"
+            public="false"
+            class="SECURITY">
+      <Menu resourceFile="InitMasterPage"
+                resourceItem="MenuAssignRoles"
+                public="false"
+                class="SECURITY"
+                url="~/Security/AssignRoles.aspx">
+      </Menu>
+      <Menu resourceFile="InitMasterPage"
+                resourceItem="MenuAssignRolesByUser"
+                public="false"
+                class="SECURITY"
+                url="~/Security/AssignRolesByUser.aspx">
+      </Menu>
+      <Menu resourceFile="InitMasterPage"
+                resourceItem="MenuDefinePermissionRole"
+                public="false"
+                class="SECURITY"
+                url="~/Security/DefinePermissionsByRol.aspx">
+      </Menu>
+    </Menu>
+    <Menu resourceFile="InitMasterPage"
+              resourceItem="MenuDefinePermissionUser"
+              public="false"
+              class="SECURITY"
+              url="~/Security/DefinePermissionsByUser.aspx">
+    </Menu>
+    <Menu resourceFile="InitMasterPage"
+              resourceItem="MenuBitacora"
+              public="false"
+              class="BITACORA"
+              url="~/Bitacora/ListaEventosBitacora.aspx">
+    </Menu>
+
+  </Menu>
+  <!-- fourth Menu: Lista de Casos-->
+  <Menu resourceFile="InitMasterPage"
+                resourceItem="MenuGestionMedica"
+                public="true">
+
+    <Menu resourceFile="InitMasterPage"
+              resourceItem="MenuCasoMedicoDashboard"
+              url="~/CasoMedico/CasoMedicoDashboard.aspx"
+              class="REPORTES"
+              public="false">
+    </Menu>
+    <Menu resourceFile="InitMasterPage"
+            resourceItem="MenuCallCenter"
+            url="~/Calendario/CitasDoctores.aspx"
+            class="CALLCENTER"
+            public="false">
+    </Menu>
+
+    <Menu resourceFile="InitMasterPage"
+              resourceItem="MenuMiCalendario"
+              url="~/Calendario/MiCalendario.aspx"
+              class="CALENDARIO"
+              public="false">
+    </Menu>
+
+    <Menu resourceFile="InitMasterPage"
+            resourceItem="MenuImportarParaNacional"
+            url="~/Import/ImportParaTerceros.aspx"
+            class="NACIONALVIDA"
+            public="false">
+    </Menu>
+    <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuSeePolizas"
+        url="~/CasoMedico/CasoMedicoRegistro.aspx"
+        class="SEECASOS"
+        public="false">
+    </Menu>
+
+    <Menu resourceFile="InitMasterPage"
+            resourceItem="MenuExportFarmaciaChavez"
+            url="~/Export/ExportParaTerceros.aspx"
+            class="EXPORT_FARMACIA_CHAVEZ"
+            public="false">
+    </Menu>
+    <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuCopagoLista"
+        url="~/CoPagos/CopagoLista.aspx"
+        class="CASOSCOPAGOS"
+        public="false">
+    </Menu>
+    <!--<Menu resourceFile="InitMasterPage"
+        resourceItem="MenuCasoOdontologia"
+        url="~/CasoMedico/CasoMedicoOdontologiaLista.aspx"
+        class="CASOSODONTOLOGIA"
+        public="false">
+    </Menu>-->
+    <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuCasoMedico"
+        public="true">
+      <!--<Menu resourceFile="InitMasterPage"
+                resourceItem="MenuNuevoCaso"
+                url="~/CasoMedico/CasoMedicoRegistro.aspx"
+                class="CASOS"
+                public="false">
+     </Menu>-->
+    
+      <Menu resourceFile="InitMasterPage"
+       resourceItem="MenuNuevoCaso"
+       url="~/CasoMedico/OpenRegRef.aspx?MODE=ODONTOLOGIA"
+       class="CASOS"
+       public="false">
+      </Menu>
+
+      <Menu resourceFile="InitMasterPage"
+       resourceItem="MenuListCasoOdontologia"
+       url="~/CasoMedico/OpenRef.aspx?MODE=ODONTOLOGIA"
+       class="CASOODONTOLOGIALISTA"
+       public="false">
+      </Menu>
+
+
+      <Menu resourceFile="InitMasterPage"
+          resourceItem="MenuListCaso"
+          url="~/CasoMedico/OpenRef.aspx?MODE="
+          class="CASOMEDICOLISTA"
+          public="false">
+      </Menu>
+    </Menu>
+    <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuListDerivaciones"
+        url="~/CasoMedico/ListaDerivaciones.aspx"
+        class="DERIVACIONES_ESPECIALISTA"
+        public="false">
+    </Menu>
+    <Menu resourceFile="InitMasterPage"
+      resourceItem="MenuCasoEmergencias"
+      public="true">
+      <!-- Esto era antes
+       <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuNuevoCaso"
+        url="~/CasoMedico/CasoMedicoRegistro.aspx"
+        class="EMERGENCIA"
+        public="false">
+      </Menu>-->
+      <!--<Menu resourceFile="InitMasterPage"
+        resourceItem="MenuNuevoCaso"
+        url="~/CasoMedico/CasoMedicoRegistro.aspx"
+        class="CasoEMERGENCIA"
+        public="false">
+      </Menu>-->
+
+      <Menu resourceFile="InitMasterPage"
+       resourceItem="MenuNuevoCasoEmergencia"
+       url="~/CasoMedico/OpenRegRef.aspx?MODE=EMERGENCIA"
+       class="EMERGENCIA"
+       public="false">
+      </Menu>
+      <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuListCasoEmergencia"
+        url="~/CasoMedico/OpenRef.aspx?MODE=EMERGENCIA"
+        class="EMERGENCIA"
+        public="false">
+      </Menu>
+    </Menu>
+
+    <Menu resourceFile="InitMasterPage"
+      resourceItem="MenuCasoEnfermeria"
+      public="true">
+      <!--<Menu resourceFile="InitMasterPage"
+        resourceItem="MenuNuevoCaso"
+        url="~/CasoMedico/CasoMedicoRegistro.aspx"
+        class="ENFERMERIA"
+        public="false">
+      </Menu>-->
+      <Menu resourceFile="InitMasterPage"
+         resourceItem="MenuNuevoCasoEnfermeria"
+         url="~/CasoMedico/OpenRegRef.aspx?MODE=ENFERMERIA"
+         class="ENFERMERIA"
+         public="false">
+      </Menu>
+
+
+      <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuListCasoEnfermeria"
+        url="~/CasoMedico/OpenRef.aspx?MODE=ENFERMERIA"
+        class="ENFERMERIA"
+        public="false">
+      </Menu>
+    </Menu>
+  </Menu>
+  <!--gastos-->
+  <Menu resourceFile="InitMasterPage"
+    resourceItem="MenuGestionEconomica"
+    public="true">
+    <Menu resourceFile="InitMasterPage"
+    resourceItem="MenuGastosEconomicos"
+    url="~/CasoMedico/CasoMedicoLista.aspx"
+    class="CASOMEDICOGASTOS"
+    public="false">
+    </Menu>
+
+    <Menu resourceFile="InitMasterPage"
+      resourceItem="MenuListCasoAprobation"
+      url="~/CasoMedico/ListaCasoPorAprobar.aspx"
+      class="CASOMEDICOGASTOS"
+      public="false">
+    </Menu>
+
+    <!-- fourth Menu: Consolidacion-->
+    <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuConsolidacion"
+        public="false"
+        class="CONSOLIDACION">
+
+      <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuListConsolidacion"
+        public="false"
+        class="CONSOLIDACION"
+        url="~/Consolidacion/Consolidados.aspx">
+      </Menu>
+
+      <Menu resourceFile="InitMasterPage"
+              resourceItem="MenuAgregarConsolidacion"
+              public="false"
+              class="CONSOLIDACION"
+              url="~/Consolidacion/AgregarConsolidacion.aspx">
+      </Menu>
+    </Menu>
+  </Menu>
+
+  <!-- Eight Menu: SOAT-->
+  <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuSOAT"
+        class="SOAT" public="false">
+    <Menu resourceFile="InitMasterPage"
+          resourceItem="MenuDashboardSOAT"
+          url="~/SOAT/SOATDashboard.aspx"
+          class="SOAT_ADMIN" public="false">
+    </Menu>
+    <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuNewSOAT"
+        url="~/SOAT/SOATWizard.aspx"
+        class="SOAT" public="false">
+    </Menu>
+    <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuListSOAT"
+        url="~/SOAT/SOATList.aspx"
+        class="SOAT" public="false">
+    </Menu>
+    <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuPagoGastosList"
+        url="~/SOAT/PagoGastosList.aspx"
+        class="SOAT_PAGOS" public="false">
+    </Menu>
+    <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuPreliquidacionList"
+        url="~/SOAT/PreliquidacionList.aspx"
+        class="SOAT_PRELIQUIDACION" public="false">
+    </Menu>
+  </Menu>
+
+  <!-- Eight Menu: DESGRVAMEN-->
+  <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuDesgravamen"
+        class="DESGRAVAMEN" public="false">
+    <Menu resourceFile="InitMasterPage"
+          resourceItem="MenuDashboardDesgravamen"
+          url="~/Desgravamen/ReportesDesgravamen.aspx"
+          class="DESGRAVAMEN_DASHBOARD" public="false">
+    </Menu>
+    <Menu resourceFile="InitMasterPage"
+          resourceItem="MenuListaPropuestosAsegurados"
+          url="~/Desgravamen/PropuestoAseguradoLista.aspx"
+          class="DESGRAVAMEN_ADMIN" public="false">
+    </Menu>
+    <Menu resourceFile="InitMasterPage"
+          resourceItem="MenuDesgravamenRevision"
+          url="~/Desgravamen/PropuestoAseguradoListaEjecutivos.aspx"
+          class="DESGRAVAMEN_VIEW_CASOS_EJECUTIVOS" public="false">
+    </Menu>
+    <Menu resourceFile="InitMasterPage"
+          resourceItem="MenuEstudiosPropuestosAsegurados"
+          url="~/Desgravamen/LaboratorioPropuestoAsegurado.aspx"
+          class="DESGRAVAMEN_ESTUDIOS" public="false">
+    </Menu>
+
+    <Menu resourceFile="InitMasterPage"
+          resourceItem="MenuRecuperacionCitasEliminadas"
+          url="~/Desgravamen/RecuperacionCitasEliminadas.aspx"
+          class="DESGRAVAMEN_ELIMINAR" public="false">
+    </Menu>
+
+    <Menu resourceFile="InitMasterPage"
+          resourceItem="MenuAgendaMedicoDesgravamen"
+          url="~/Desgravamen/AgendaMedico.aspx"
+          class="DESGRAVAMEN_MEDICO" public="false">
+    </Menu>
+
+    <Menu resourceFile="InitMasterPage"
+          resourceItem="MenuMedicoDesgravamenLista"
+          url="~/Desgravamen/MedicoDesgravamenLista.aspx"
+          class="ADMIN_DOCTORS_PROVIDERS" public="false">
+    </Menu>
+
+    <Menu resourceFile="InitMasterPage"
+          resourceItem="MenuProveedorDesgravamenLista"
+          url="~/Desgravamen/ProveedorDesgravamenLista.aspx"
+          class="ADMIN_DOCTORS_PROVIDERS" public="false">
+    </Menu>
+
+  </Menu>
+
+  <!-- Eight Menu: Reportes-->
+  <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuListReportes"
+        class="REPORTES" public="false">
+    <!--<Menu resourceFile="InitMasterPage"
+            resourceItem="MenuGestionMedica"
+            class="REPORTES" public="false">
+            <Menu resourceFile="InitMasterPage"
+                resourceItem="MenuListReporteAsegurado"
+                url="~/Reportes/ReporteAsegurado.aspx"
+                class="REPORTES" public="false">
+            </Menu>
+        </Menu>-->
+    <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuListReporteCasoMedico"
+        url="~/Reportes/ReporteCasoMedico.aspx"
+        class="REPORTES" public="false">
+    </Menu>
+    <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuListReporteCasoMedicoCompleto"
+        url="~/Reportes/ReporteCasoMedicoCompleto.aspx"
+        class="REPORTES" public="false">
+    </Menu>
+    <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuListReporteLaboratorioPorAtencion"
+        url="~/Reportes/ReporteLaboratorioPorAtencion.aspx"
+        class="REPORTES" public="false">
+    </Menu>
+    <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuListReporteFarmacia"
+        url="~/Reportes/ReporteFarmacia.aspx"
+        class="REPORTES" public="false">
+    </Menu>
+    <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuListReporteEnfermeria"
+        url="~/Reportes/ReporteEnfermeria.aspx"
+        class="REPORTES" public="false">
+    </Menu>
+    <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuListReporteEmergencia"
+        url="~/Reportes/ReporteEmergencia.aspx"
+        class="REPORTES" public="false">
+    </Menu>
+    <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuListReporteOdontologia"
+        url="~/Reportes/ReporteOdontologia.aspx"
+        class="REPORTES" public="false">
+    </Menu>
+    <!-- Sub Menu: ReportesSiniestralidad-->
+    <Menu resourceFile="InitMasterPage"
+                resourceItem="MenuListasReportesSiniestralidad"
+                public="true">
+        <Menu resourceFile="InitMasterPage"
+            resourceItem="MenuListReporteSiniestralidad"
+            url="~/Siniestralidad/ReporteSiniestralidad.aspx"
+            class="REPORTES" public="false">
+        </Menu>
+        <Menu resourceFile="InitMasterPage"
+            resourceItem="MenuListReporteSiniestralidadCliente"
+            url="~/Siniestralidad/ReporteSiniestralidadCliente.aspx"
+            class="REPORTES" public="false">
+        </Menu>
+    </Menu>
+    <!-- Sub Menu: ReportesVideoLlamadas-->
+    <Menu resourceFile="InitMasterPage"
+                resourceItem="MenuListReporteVideoLlamadas"
+                public="true">
+      <Menu resourceFile="InitMasterPage"
+          resourceItem="MenuListReporteVideoLlamadasConsolidadoCitas"
+          url="~/Reportes/ReporteConsolidadoCitas.aspx"
+          class="REPORTES" public="false">
+      </Menu>
+      <Menu resourceFile="InitMasterPage"
+          resourceItem="MenuListReporteVideoLlamadasAtencionesPorMes"
+          url="~/Reportes/ReporteAtencionesPorMes.aspx"
+          class="REPORTES" public="false">
+      </Menu>
+      <Menu resourceFile="InitMasterPage"
+          resourceItem="MenuListReporteVideoLlamadasDistribucionAtencionPlaza"
+          url="~/Reportes/ReporteDistribucionAtencionPlaza.aspx"
+          class="REPORTES" public="false">
+      </Menu>
+      <Menu resourceFile="InitMasterPage"
+          resourceItem="MenuListReporteVideoLlamadasDiagnosticoPresuntivo"
+          url="~/Reportes/ReporteDiagnosticoPresuntivo.aspx"
+          class="REPORTES" public="false">
+      </Menu>
+      <Menu resourceFile="InitMasterPage"
+          resourceItem="MenuListReporteVideoLlamadasCantidadLlamadasHora"
+          url="~/Reportes/ReporteCantidadLlamadasHora.aspx"
+          class="REPORTES" public="false">
+      </Menu>
+      <Menu resourceFile="InitMasterPage"
+          resourceItem="MenuListReporteVideoLlamadasDistribucionAtencionMedico"
+          url="~/Reportes/ReporteDistribucionAtencionMedico.aspx"
+          class="REPORTES" public="false">
+      </Menu>
+      <Menu resourceFile="InitMasterPage"
+          resourceItem="MenuListReporteVideoLlamadasUsuariosMayorUso"
+          url="~/Reportes/ReporteUsuariosMayorUso.aspx"
+          class="REPORTES" public="false">
+      </Menu>
+      <Menu resourceFile="InitMasterPage"
+          resourceItem="MenuListReporteVideoLlamadasCalificacionesObtenidasMedico"
+          url="~/Reportes/ReporteCalificacionesObtenidasMedico.aspx"
+          class="REPORTES" public="false">
+      </Menu>
+      <Menu resourceFile="InitMasterPage"
+          resourceItem="MenuListReporteVideoLlamadasMedicamentosMasRecetados"
+          url="~/Reportes/ReporteMedicamentosMasRecetados.aspx"
+          class="REPORTES" public="false">
+      </Menu>
+      <Menu resourceFile="InitMasterPage"
+          resourceItem="MenuListReporteVideoLlamadasRecetasExtendidas"
+          url="~/Reportes/ReporteRecetasExtendidas.aspx"
+          class="REPORTES" public="false">
+      </Menu>
+    </Menu>
+    <!--<Menu resourceFile="InitMasterPage"
+            resourceItem="MenuFarmacias"
+            class="REPORTES" public="false">
+        </Menu>-->
+  </Menu>
+  <!-- Nine Menu: About -->
+  <Menu resourceFile="InitMasterPage"
+              resourceItem="MenuAbout"
+              public="true">
+    <Menu resourceFile="InitMasterPage"
+        resourceItem="MenuVersionInformation"
+        url="~/About/VersionInformation.aspx"
+        class="VERSION"
+        public="false">
+    </Menu>
+  </Menu>
+</Home>

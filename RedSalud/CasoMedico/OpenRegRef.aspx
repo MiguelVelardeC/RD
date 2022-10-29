@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="OpenRegRef.aspx.cs" Inherits="CasoMedico_OpenRegRef" MasterPageFile="~/MasterPage.master" %>

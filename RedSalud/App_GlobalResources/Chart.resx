@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddFilterLabel" xml:space="preserve">
+    <value>Añada filtros con el selector:</value>
+  </data>
+  <data name="BarChartExplorerTitle" xml:space="preserve">
+    <value>Explorador de Gráfico de Barras</value>
+  </data>
+  <data name="BarChartLabel" xml:space="preserve">
+    <value>Gráfico de Barras</value>
+  </data>
+  <data name="BubbleChartExplorerTitle" xml:space="preserve">
+    <value>Explorador de Gráfico de Burbujas</value>
+  </data>
+  <data name="BubbleChartLabel" xml:space="preserve">
+    <value>Gráfico de Burbujas</value>
+  </data>
+  <data name="ChartConfirmMessage" xml:space="preserve">
+    <value>Confimación</value>
+  </data>
+  <data name="ChartDescriptionLabel" xml:space="preserve">
+    <value>Analisis/Descripción del Gráfico</value>
+  </data>
+  <data name="ChartHasRelationshipMessage" xml:space="preserve">
+    <value>No puede eliminar este gráfico por que está vinculado con otros objetos del sistema</value>
+  </data>
+  <data name="ChartIdNotFoundErrorMessage" xml:space="preserve">
+    <value>No se pudo obtener el id del grafico</value>
+  </data>
+  <data name="ChartToolbarExplainLabel" xml:space="preserve">
+    <value>Use el explorador de datos y analice más de {VARIABLES} variables para más de {COMPANIES} empresas, en {COUNTRIES} países.</value>
+  </data>
+  <data name="Comparison1DefaultName" xml:space="preserve">
+    <value>Comparación 1</value>
+  </data>
+  <data name="Comparison2DefaultName" xml:space="preserve">
+    <value>Comparación 2</value>
+  </data>
+  <data name="Comparison3DefaultName" xml:space="preserve">
+    <value>Comparación 3</value>
+  </data>
+  <data name="DeleteChartButton" xml:space="preserve">
+    <value>Eliminar Gráfico</value>
+  </data>
+  <data name="DeleteChartErrorMessage" xml:space="preserve">
+    <value>Ocurrió un error al eliminar el gráfico</value>
+  </data>
+  <data name="DeleteChartSuccessfulMessage" xml:space="preserve">
+    <value>El grafico ha sido eliminado</value>
+  </data>
+  <data name="DeleteConfirmMessage" xml:space="preserve">
+    <value>¿Esta seguro que desea eliminar el gráfico?</value>
+  </data>
+  <data name="DescriptionLabel" xml:space="preserve">
+    <value>Análisis/Descripción del gráfico</value>
+  </data>
+  <data name="DocumentLabel" xml:space="preserve">
+    <value>Documento</value>
+  </data>
+  <data name="DoNotUseWeightsLabel" xml:space="preserve">
+    <value>NO usar pesos.</value>
+  </data>
+  <data name="EditChart" xml:space="preserve">
+    <value>Editar Gráfico</value>
+  </data>
+  <data name="ExploreOurData" xml:space="preserve">
+    <value>Explora los datos</value>
+  </data>
+  <data name="FilterSelectorTitle" xml:space="preserve">
+    <value>Selector de Filtro</value>
+  </data>
+  <data name="FilterVariablesLabel" xml:space="preserve">
+    <value>Filtros</value>
+  </data>
+  <data name="HeatmapChartLabel" xml:space="preserve">
+    <value>Gráfico de Mapas de Calor</value>
+  </data>
+  <data name="HiresPrintChart" xml:space="preserve">
+    <value>Modo Publicación</value>
+  </data>
+  <data name="HistogramChartLabel" xml:space="preserve">
+    <value>Gráfico de Histograma</value>
+  </data>
+  <data name="ImageSizeBig" xml:space="preserve">
+    <value>Grande</value>
+  </data>
+  <data name="ImageSizeSmall" xml:space="preserve">
+    <value>Pequeña</value>
+  </data>
+  <data name="ImageSizeText" xml:space="preserve">
+    <value>Tamaño de la Imagen:</value>
+  </data>
+  <data name="InsertUploadInformation" xml:space="preserve">
+    <value>Crea Información</value>
+  </data>
+  <data name="InsertUploadInformationExplainLabel" xml:space="preserve">
+    <value>Sube tus archivos o genera informes con nuestras herramientas.</value>
+  </data>
+  <data name="LoadingData" xml:space="preserve">
+    <value>Cargando Datos, por favor, espere unos segundos ...</value>
+  </data>
+  <data name="MakePublic" xml:space="preserve">
+    <value>Hacer Público</value>
+  </data>
+  <data name="NewChartCaption" xml:space="preserve">
+    <value>Nuevo Gráfico</value>
+  </data>
+  <data name="PieChartExplorerTitle" xml:space="preserve">
+    <value>Explorador de Gráfico de Tortas</value>
+  </data>
+  <data name="PieChartLabel" xml:space="preserve">
+    <value>Gráfico de Tortas</value>
+  </data>
+  <data name="PreviewModeErrorMessage" xml:space="preserve">
+    <value>No se pudo mostrar el modo vista debido a que el Id del Objeto no pudo ser encontrado</value>
+  </data>
+  <data name="PrintChart" xml:space="preserve">
+    <value>Imprimir Grafico</value>
+  </data>
+  <data name="PrintChartButton" xml:space="preserve">
+    <value>Imprimir Página</value>
+  </data>
+  <data name="PrintChartPageTitle" xml:space="preserve">
+    <value>Imprimir Grafico</value>
+  </data>
+  <data name="ReportLabel" xml:space="preserve">
+    <value>Reporte</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Resetear</value>
+  </data>
+  <data name="SeriesSelectedTitle" xml:space="preserve">
+    <value>Serie seleccionada</value>
+  </data>
+  <data name="SeriesSelectorTitle" xml:space="preserve">
+    <value>Selector de Series</value>
+  </data>
+  <data name="SurveyGroupTitle" xml:space="preserve">
+    <value>Grupo de Encuestas</value>
+  </data>
+  <data name="TitleLabel" xml:space="preserve">
+    <value>Título del Nuevo gráfico</value>
+  </data>
+  <data name="ViewChart" xml:space="preserve">
+    <value>Ver Gráfico</value>
+  </data>
+  <data name="ViewPreparedChartLabel" xml:space="preserve">
+    <value>Vista del gráfico preparado</value>
+  </data>
+  <data name="XAxisLabel" xml:space="preserve">
+    <value>Eje X</value>
+  </data>
+  <data name="YAxisLabel" xml:space="preserve">
+    <value>Eje Y</value>
+  </data>
+  <data name="AddMoreFiltersLabel" xml:space="preserve">
+    <value>Añada filtros con el selector:</value>
+  </data>
+  <data name="DoNotUseVariableLabel" xml:space="preserve">
+    <value>NO usar variables, solo conteo</value>
+  </data>
+  <data name="LoadingLabel" xml:space="preserve">
+    <value>Cargando...</value>
+  </data>
+  <data name="NoFiltersApplied" xml:space="preserve">
+    <value>No hay filtros aplicados</value>
+  </data>
+  <data name="NothingSelectedLabel" xml:space="preserve">
+    <value>No hay nada seleccionado</value>
+  </data>
+  <data name="NumericVariableLabel" xml:space="preserve">
+    <value>Variables Numéricas</value>
+  </data>
+  <data name="SelectedFilters" xml:space="preserve">
+    <value>Filtros Seleccionados</value>
+  </data>
+  <data name="AVG" xml:space="preserve">
+    <value>Promedio</value>
+  </data>
+  <data name="BackToHomeLabel" xml:space="preserve">
+    <value>Volver a Inicio</value>
+  </data>
+  <data name="CancelButton" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="CountLabel" xml:space="preserve">
+    <value>Contar</value>
+  </data>
+  <data name="EditChartLabel" xml:space="preserve">
+    <value>Editar Gráfico</value>
+  </data>
+  <data name="GetChartImageLabel" xml:space="preserve">
+    <value>Obtener imagen del gráfico</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="GroupingVariableLabel" xml:space="preserve">
+    <value>Agrupación de variables</value>
+  </data>
+  <data name="GroupName" xml:space="preserve">
+    <value>Nombre del grupo</value>
+  </data>
+  <data name="HeatmapExplorerTitle" xml:space="preserve">
+    <value>Explorador de Mapa de calor </value>
+  </data>
+  <data name="HideChartDetailsLabel" xml:space="preserve">
+    <value>Ocultar detalles</value>
+  </data>
+  <data name="HistogramChartExplorerTitle" xml:space="preserve">
+    <value>Explorador de Gráfico de Histograma</value>
+  </data>
+  <data name="MainGroupDefaultName" xml:space="preserve">
+    <value>Principal</value>
+  </data>
+  <data name="MEDIAN" xml:space="preserve">
+    <value>Promedio</value>
+  </data>
+  <data name="NewButton" xml:space="preserve">
+    <value>Nuevo</value>
+  </data>
+  <data name="NumHeatMapLabel" xml:space="preserve">
+    <value>Mapa de Calor numérico</value>
+  </data>
+  <data name="OnDrilldownTitle" xml:space="preserve">
+    <value>Al detallar, usar el valor en:</value>
+  </data>
+  <data name="PivotVariableLabel" xml:space="preserve">
+    <value>Pivote</value>
+  </data>
+  <data name="PreviewModeButton" xml:space="preserve">
+    <value>Modo de vista previa</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Cambiar el nombre</value>
+  </data>
+  <data name="SaveChangesErrorMessage" xml:space="preserve">
+    <value>Cambios en el gráfico no se guardaron.</value>
+  </data>
+  <data name="SaveChangesSuccessfulMessage" xml:space="preserve">
+    <value>Cambios en el gráfico se guardaron correctamente.</value>
+  </data>
+  <data name="SaveChart" xml:space="preserve">
+    <value>Guardar Gráfico</value>
+  </data>
+  <data name="SaveChartExplainText" xml:space="preserve">
+    <value>Una vez confirmada, la vista del gráfico será guardada en nuestra base de datos y usted será capaz de añadir un título y una descripción o hacer un análisis del mismo. Además, si tiene los permisos, puede hacer que el gráfico sea público y la gente será capaz de encontrar y ver su grafico.</value>
+  </data>
+  <data name="SaveChartSuccessfulMessage" xml:space="preserve">
+    <value>El gráfico se ha guardado en el IMP</value>
+  </data>
+  <data name="SaveRenameGroup" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="SaveYourChartLabel" xml:space="preserve">
+    <value>Guardar tu Gráfico</value>
+  </data>
+  <data name="SeriesVariableLabel" xml:space="preserve">
+    <value>Variables de Serie</value>
+  </data>
+  <data name="ShowChartDetailsLabel" xml:space="preserve">
+    <value>Ver Detalles</value>
+  </data>
+  <data name="SUM" xml:space="preserve">
+    <value>Suma</value>
+  </data>
+  <data name="TitleRequired" xml:space="preserve">
+    <value>El título es un campo obligatorio.</value>
+  </data>
+  <data name="ValueLabel" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="ZAxisLabel" xml:space="preserve">
+    <value>Tamaño</value>
+  </data>
+  <data name="ChangeLabel" xml:space="preserve">
+    <value>Cambiar</value>
+  </data>
+  <data name="DataRefersToEntireEconomyLabel" xml:space="preserve">
+    <value>Nota .- Estos datos se refieren a la economía en su conjunto. Se basan en una muestra estratificada de las empresas.</value>
+  </data>
+  <data name="DataRefersToSurveyedLabel" xml:space="preserve">
+    <value>Nota .- Los datos se refieren solo a la muestra de encuestados.</value>
+  </data>
+  <data name="NameRequiredLabel" xml:space="preserve">
+    <value>El campo Nombre es obligatorio.</value>
+  </data>
+  <data name="Select1stComparisonFiltersLabel" xml:space="preserve">
+    <value>Seleccione el filtro de 1ra. Comparación:</value>
+  </data>
+  <data name="Select2ndComparisonFiltersLabel" xml:space="preserve">
+    <value>Seleccione el filtro de 2da. Comparación:</value>
+  </data>
+  <data name="Select3rdComparisonFiltersLabel" xml:space="preserve">
+    <value>Seleccione el filtro de 3ra. Comparación:</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Estab es la descripción del control de usuario, ya sea a la vista o el modo de edición.</value>
+  </data>
+  <data name="ExportDataButton" xml:space="preserve">
+    <value>Exportar Datos</value>
+  </data>
+  <data name="GetImageButton" xml:space="preserve">
+    <value>Obtener imagen del gráfico</value>
+  </data>
+  <data name="InsertTitleHereLabel" xml:space="preserve">
+    <value>Insertar el título aquí ...</value>
+  </data>
+  <data name="GroupMain" xml:space="preserve">
+    <value>Grupo: Principal</value>
+  </data>
+  <data name="LanguageChartLabel" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="ToogleValues" xml:space="preserve">
+    <value>Mostrar/Ocultar Valores</value>
+  </data>
+  <data name="TruncateXAxis" xml:space="preserve">
+    <value>Truncar eje X</value>
+  </data>
+  <data name="ImageSizeMedium" xml:space="preserve">
+    <value>Medio</value>
+  </data>
+  <data name="AsPieChart" xml:space="preserve">
+    <value>Ver como un gráfico de tortas</value>
+  </data>
+  <data name="ResetImage" xml:space="preserve">
+    <value>Datos iniciales</value>
+  </data>
+  <data name="CorruptedMissingDataMessage" xml:space="preserve">
+    <value>Gráfico no se puede mostrar. Variables mal configuradas, datos corruptos o faltantes.</value>
+  </data>
+  <data name="VariableHeatMapChartNotDefinedError" xml:space="preserve">
+    <value>Mapa de calor no se mostrará. Definir variables para los ejes, y por defecto al menos para la Variable.</value>
+  </data>
+  <data name="VariablePieChartNotDefinedError" xml:space="preserve">
+    <value>Gráfico de tortas no se mostrará. Definir variables para los ejes, por defecto al menos para Agrupación y Numérica.</value>
+  </data>
+  <data name="VariablesBarChartNotDefinedError" xml:space="preserve">
+    <value>Gráfico de barras no se mostrará. Definir variables para los ejes, y por defecto al menos para X y Y.</value>
+  </data>
+  <data name="VariablesBubbleChartNotDefinedError" xml:space="preserve">
+    <value>Gráfico burbuja no se mostrará. Definir variables para los ejes, por defecto al menos para X, Y, Tamaño y Pivot.</value>
+  </data>
+  <data name="VariablesHistogramNotDefinedError" xml:space="preserve">
+    <value>Histograma no se mostrará. Definir variables para los ejes, y por defecto al menos para X.</value>
+  </data>
+  <data name="BackLabel" xml:space="preserve">
+    <value>Volver</value>
+  </data>
+  <data name="ChartViewerDescriptionLabel" xml:space="preserve">
+    <value>La descripción del control, en modo vista o edición.</value>
+  </data>
+  <data name="BackToAnalysis" xml:space="preserve">
+    <value>Volver a Análisis</value>
+  </data>
+  <data name="NotPossibleBackToAnalysis" xml:space="preserve">
+    <value>No puede volver a análisis ya que el gráfico está mal guardado.</value>
+  </data>
+  <data name="WillUseCounts" xml:space="preserve">
+    <value>Utiliza la cuenta. Las series son de tipo si/no.</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="CopyToClipboardLabel" xml:space="preserve">
+    <value>Copiar al porta papeles</value>
+  </data>
+  <data name="CopiedToClipboardLabel" xml:space="preserve">
+    <value>Copiado en el porta papeles</value>
+  </data>
+  <data name="ErrorSavingTheChartData" xml:space="preserve">
+    <value>Los datos del gráfico no pudieron ser guardados. Por favor vuelva a intentar.</value>
+  </data>
+  <data name="ChartDetailsLabel" xml:space="preserve">
+    <value>Detalles del gráfico</value>
+  </data>
+  <data name="FilterLabel" xml:space="preserve">
+    <value>Filtro</value>
+  </data>
+  <data name="SeriesLabel" xml:space="preserve">
+    <value>Series:</value>
+  </data>
+  <data name="GeoChartExplorerTitle" xml:space="preserve">
+    <value>Mapa Chart Explorador</value>
+  </data>
+  <data name="GeoChartLabel" xml:space="preserve">
+    <value>Mapa Chart</value>
+  </data>
+  <data name="CompanyByCountry" xml:space="preserve">
+    <value>Compañias por país</value>
+  </data>
+  <data name="CompanyByOffice" xml:space="preserve">
+    <value>Compañias por SPX Office</value>
+  </data>
+  <data name="CompanyBySector" xml:space="preserve">
+    <value>Compañias por sector</value>
+  </data>
+</root>

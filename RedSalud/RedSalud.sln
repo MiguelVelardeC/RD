@@ -1,0 +1,102 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RedSalud", ".", "{4150486D-0F09-41DB-B2E4-ECB2914150B8}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{59ee49d4-a4d8-4f95-b52f-4d4f6b7a5620}|Cognos.Negocio.dll;{8c9ac9f2-7e0f-4c70-8f17-3aaa370e2f38}|VideoLlamada.AgoraIO.TokenGenerator.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1785"
+		Debug.AspNetCompiler.PhysicalPath = "..\RedSalud\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1785\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1785"
+		Release.AspNetCompiler.PhysicalPath = "..\RedSalud\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1785\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1785"
+		SlnRelativePath = "..\RedSalud\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cognos.Negocio", "..\Cognos.Negocio\Cognos.Negocio.csproj", "{59EE49D4-A4D8-4F95-B52F-4D4F6B7A5620}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cognos.Library", "..\Cognos.Library\Cognos.Library.csproj", "{27BB3BB5-4F01-443F-8AF5-EA93AFC8AF69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cognos.Consola", "..\Cognos.Consola\Cognos.Consola.csproj", "{6EA7B7A9-7C04-451C-9866-6299139F56E8}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "RedSalud.Reports", "..\RedSalud.Reports\RedSalud.Reports.rptproj", "{49F94508-FF79-4E17-B65B-CE2C653783B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoLlamada.TokenGenerator.AgoraIO", "..\VideoLlamada.AgoraIO.TokenGenerator\VideoLlamada.TokenGenerator.AgoraIO.csproj", "{8C9AC9F2-7E0F-4C70-8F17-3AAA370E2F38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cognos.Negocio.Api", "..\Cognos.Negocio.Api\Cognos.Negocio.Api.csproj", "{91EA8B7A-1AB4-4403-A167-9A769FD5A195}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DebugLocal|Any CPU = DebugLocal|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4150486D-0F09-41DB-B2E4-ECB2914150B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4150486D-0F09-41DB-B2E4-ECB2914150B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4150486D-0F09-41DB-B2E4-ECB2914150B8}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{4150486D-0F09-41DB-B2E4-ECB2914150B8}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{4150486D-0F09-41DB-B2E4-ECB2914150B8}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4150486D-0F09-41DB-B2E4-ECB2914150B8}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{59EE49D4-A4D8-4F95-B52F-4D4F6B7A5620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59EE49D4-A4D8-4F95-B52F-4D4F6B7A5620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59EE49D4-A4D8-4F95-B52F-4D4F6B7A5620}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{59EE49D4-A4D8-4F95-B52F-4D4F6B7A5620}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{59EE49D4-A4D8-4F95-B52F-4D4F6B7A5620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59EE49D4-A4D8-4F95-B52F-4D4F6B7A5620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27BB3BB5-4F01-443F-8AF5-EA93AFC8AF69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27BB3BB5-4F01-443F-8AF5-EA93AFC8AF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27BB3BB5-4F01-443F-8AF5-EA93AFC8AF69}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{27BB3BB5-4F01-443F-8AF5-EA93AFC8AF69}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{27BB3BB5-4F01-443F-8AF5-EA93AFC8AF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27BB3BB5-4F01-443F-8AF5-EA93AFC8AF69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA7B7A9-7C04-451C-9866-6299139F56E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA7B7A9-7C04-451C-9866-6299139F56E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA7B7A9-7C04-451C-9866-6299139F56E8}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA7B7A9-7C04-451C-9866-6299139F56E8}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{6EA7B7A9-7C04-451C-9866-6299139F56E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA7B7A9-7C04-451C-9866-6299139F56E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49F94508-FF79-4E17-B65B-CE2C653783B4}.Debug|Any CPU.ActiveCfg = Debug
+		{49F94508-FF79-4E17-B65B-CE2C653783B4}.Debug|Any CPU.Build.0 = Debug
+		{49F94508-FF79-4E17-B65B-CE2C653783B4}.Debug|Any CPU.Deploy.0 = Debug
+		{49F94508-FF79-4E17-B65B-CE2C653783B4}.DebugLocal|Any CPU.ActiveCfg = DebugLocal
+		{49F94508-FF79-4E17-B65B-CE2C653783B4}.DebugLocal|Any CPU.Build.0 = DebugLocal
+		{49F94508-FF79-4E17-B65B-CE2C653783B4}.Release|Any CPU.ActiveCfg = Release
+		{49F94508-FF79-4E17-B65B-CE2C653783B4}.Release|Any CPU.Build.0 = Release
+		{49F94508-FF79-4E17-B65B-CE2C653783B4}.Release|Any CPU.Deploy.0 = Release
+		{8C9AC9F2-7E0F-4C70-8F17-3AAA370E2F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9AC9F2-7E0F-4C70-8F17-3AAA370E2F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C9AC9F2-7E0F-4C70-8F17-3AAA370E2F38}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9AC9F2-7E0F-4C70-8F17-3AAA370E2F38}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{8C9AC9F2-7E0F-4C70-8F17-3AAA370E2F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C9AC9F2-7E0F-4C70-8F17-3AAA370E2F38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91EA8B7A-1AB4-4403-A167-9A769FD5A195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91EA8B7A-1AB4-4403-A167-9A769FD5A195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91EA8B7A-1AB4-4403-A167-9A769FD5A195}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{91EA8B7A-1AB4-4403-A167-9A769FD5A195}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{91EA8B7A-1AB4-4403-A167-9A769FD5A195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91EA8B7A-1AB4-4403-A167-9A769FD5A195}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62C1D4F1-3942-4D05-AF06-C4628D72F345}
+	EndGlobalSection
+EndGlobal

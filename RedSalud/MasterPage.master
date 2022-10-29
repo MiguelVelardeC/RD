@@ -1,0 +1,221 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+<%@ Register Src="UserControls/Messages.ascx" TagName="Messages" TagPrefix="msg" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ng="http://angularjs.org">
+<head runat="server">
+    <title></title>
+    <asp:Literal ID="JqueryAndMainMenuScript" runat="server"></asp:Literal>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .alert {
+            padding: 20px;
+            background-color: #f44336;
+            color: white;
+            opacity: 1;
+            transition: opacity 0.6s;
+            margin: 10px;
+        }
+
+        .alert.success {background-color: #4CAF50;}
+        .alert.info {background-color: #2196F3;}
+        .alert.warning {background-color: #ff9800;}
+
+        .closebtn {
+            margin-left: 15px;
+            color: white;
+            font-weight: bold;
+            float: right;
+            font-size: 22px;
+            line-height: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .closebtn:hover {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+        window.onload = function () {
+            try {
+                var menu = $find('<%= MainRadMenu.ClientID %>');
+
+                if (window.jQuery && jQuery.ui) {
+                    $('#Master_MaskDiv').html('');
+                    $('#Master_MaskDiv').hide();
+                } else {
+                    throw 'JQuery not Loaded.';
+                }
+            } catch (q) {
+                document.getElementById('errorJQuery').style.display = 'block';
+                document.getElementById('loading').innerHTML = '';
+            }
+        }
+    </script>
+    <div id="TOPSPX">
+    </div>
+    <div id="errorJQuery" style="z-index:9999;padding:5px;position:absolute;top:48%;left:50%;width:40%;margin-left:-20%; background-color:#FFF;border:1px solid #f00;border-radius:3px;display:none;">
+        <span style="color: #f00;">ERROR: La página no cargo totalmente y por lo tanto no funcionara correctamente, intente haciendo una actualización forzada apretando las teclas Ctrl + F5 o haga click <a href="javascript:window.location.reload(true);">aqui</a>.<br />Verifique su velocidad de Internet si el error es persistente.</span>
+    </div>
+    <div id="Master_MaskDiv" class="popup_Mask" style="display:block;text-align:center;">
+        <div id="Div2"><asp:Image ID="Image2" ImageUrl="~/Images/cargando.gif" runat="server" style="position:absolute;top: 50%;left:50%;margin-top: -47.5px;margin-left: -47.5px;" /></div>
+    </div>
+    <div id="popup_MaskDiv" class="popup_Mask"></div>
+    <!-- Do not remove div#mask, because you'll need it to fill the whole screen -->
+    <div id="feedback_Mask" class="feedback_Mask"></div>
+    <form id="form1" runat="server">
+        <telerik:RadScriptManager ID="RadScriptManager1" runat="server" AsyncPostBackTimeout="180">
+        </telerik:RadScriptManager>
+        <%--<asp:ScriptManager runat="server"></asp:ScriptManager>--%>
+        <div class="Page">
+            <div class="noPrint" id="header">
+                <div id="logoContent" style="vertical-align: middle;">
+                    <asp:Image ID="imgHeaderLogo" runat="server" ImageUrl="~/Images/logo_sisa.png" AlternateText="SISTEMA SISA"
+                        Height="53" Style="float: left;" />
+                </div>
+                <div id="headerMnu" class="noPrint">
+                    <div class="command" style="border: none;">
+                        <msg:Messages ID="MessagesContent" runat="server" />
+                    </div>
+                    <div class="command">
+                        <asp:Label ID="lblUseName" runat="server" Text="Label"></asp:Label>
+                    </div>
+                    <div class="command">
+                        <asp:HyperLink ID="HyperLink1" NavigateUrl="~/Security/ChangePassword.aspx" runat="server" Text="Cambiar Contraseña" />
+                    </div>
+                    <div class="command">
+                        <asp:LoginStatus ID="LoginStatus1" runat="server" LogoutPageUrl="~/Authentication/Login.aspx"
+                            OnLoggingOut="LoginStatus1_LoggingOut" OnLoggedOut="LoginStatus1_LoggedOut" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative noPrint">
+                <telerik:RadMenu ID="MainRadMenu" runat="server" CssClass="menu" Style="width: 100%; z-index: 1000;"
+                    Skin="msc" EnableEmbeddedSkins="false">
+                    <Items>
+                        <telerik:RadMenuItem runat="server" Text="Inicio">
+                        </telerik:RadMenuItem>
+                    </Items>
+                </telerik:RadMenu>
+            </div>
+
+            <div id="body">
+                <%--<div class="oneColumn">
+                    <div class="columnContentOverflow">
+                    </div>
+                </div>--%>
+                <div class="pageContent">
+                    <asp:ContentPlaceHolder ID="cp" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+
+            <div class="Footer noPrint" style="position:relative">
+                <div style="vertical-align: middle; position:absolute; top: 1px;">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/logo_2.jpg" AlternateText="RedSalud"
+                        Height="28" Style="float: left;border-radius: 0 3px 3px 0;" />
+                </div>
+                <table width="100%">
+                    <tr>
+                        <td valign="middle" align="center">
+                            RED SALUD&#174; TODOS LOS DERECHOS RESERVADOS.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 15%;" valign="middle" align="center">
+                            <a href="#" id="feedbackHyperLink" class="FooterText secondaryButton">
+                                <asp:Literal ID="SubmitfeedbackLabel" runat="server" Text="Ingresar Comentario"></asp:Literal>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <asp:HiddenField ID="CurrentUserIDHiddenField" runat="server" />
+
+            <!-- Feedback Panel -->
+            <div id="feedbackPanel" class="feedback_Panel frame" title="Ingresar Comentario" style="overflow:hidden;">
+                <div class="columnContent">
+                    <asp:Literal ID="FeedbackIframeCode" runat="server"></asp:Literal>
+                </div>
+            </div>
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    var id = '';
+                    $('input').click(function (event) {
+                        try {
+                            if ($(this).parent().hasclass('rgExpandCol')) {
+                                return true;
+                            } else if (id == $(this).attr('id')) {
+                                event.preventDefault();
+                                $(this).prop('disabled', true);
+                            } else {
+                                id = $(this).attr('id');
+                            }
+                        } catch (e) {}
+                    });
+                    $('a').click(function () {
+                        $(this).prop('disabled', true);
+                    });
+                    //updateOnResize();
+
+                    $("#feedbackPanel").hide();
+
+                    // Handler to show the columns selector
+                    $("#feedbackHyperLink").click(function (e) {
+
+                        //$.scrollTo($('#TOP'), 800);
+
+                        e.preventDefault();
+
+                        $("#feedbackPanel").dialog({ modal: true, width: 600 });
+
+                        //var maskWinH = $(document).height();
+                        //var maskWinW = $(window).width();
+                        //$("#feedback_Mask").css({ 'width': maskWinW, 'height': maskWinH });
+                        //$("#feedback_Mask").css('top', 0);
+                        //$("#feedback_Mask").css('left', 0);
+                        //$('#feedback_Mask').fadeIn(200);
+                        //$('#feedback_Mask').fadeTo('fast', 0.8);
+                        //$("#feedback_Mask").fadeIn(500);
+
+                        //var winH = $(window).height();
+                        //var winW = $(window).width();
+                        //$("#feedbackPanel").css('top', winH / 2 - $("#feedbackPanel").height() / 2);
+                        //$("#feedbackPanel").css('left', winW / 2 - $("#feedbackPanel").width() / 2);
+                        //$("#feedbackPanel").fadeIn(500);
+
+                        return false;
+                    });
+
+                    $("#cancelFeedbackButton").click(function (e) {
+                        e.preventDefault();
+                        $("#feedbackPanel, #feedback_Mask").fadeOut(500);
+                    });
+                });
+            </script>
+    </form>
+
+    <script>
+        var close = document.getElementsByClassName("closebtn");
+        var i;
+
+        for (i = 0; i < close.length; i++) {
+            close[i].onclick = function(){
+                var div = this.parentElement;
+                div.style.opacity = "0";
+                setTimeout(function(){ div.style.display = "none"; }, 600);
+            }
+        }
+    </script>
+</body>
+</html>

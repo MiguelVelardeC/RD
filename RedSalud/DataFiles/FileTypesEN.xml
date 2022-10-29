@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FileTypes>
+	<Type extension=".avi" description="Movie" icon="movie-icon.gif" provider="IFILTER" image="false"/>
+	<Type extension=".bmp" description="Image" icon="bmp-icon.jpg" provider="IFILTER" image="true"/>
+	<Type extension=".xls" description="Excel Document" icon="excel-icon.jpg" provider="IFILTER" image="false"/>
+	<Type extension=".gif" description="Image" icon="gif-icon.jpg" provider="IFILTER" image="true"/>
+	<Type extension=".html" description="Web Page" icon="html-icon.jpg" provider="HTML" image="false"/>
+	<Type extension=".htm" description="Web Page" icon="html-icon.jpg" provider="HTML" image="false"/>
+	<Type extension=".jpg" description="Image" icon="jpg-icon.gif" provider="IFILTER" image="true"/>
+	<Type extension=".jpeg" description="Image" icon="jpg-icon.gif" provider="IFILTER" image="true"/>
+  <Type extension=".png" description="Image" icon="icon_png.gif" provider="IFILTER" image="true"/>
+	<Type extension=".mp3" description="Audio File" icon="audio-icon.gif" provider="IFILTER" image="false"/>
+	<Type extension=".mpg" description="Movie" icon="movie-icon.gif" provider="IFILTER" image="false"/>
+	<Type extension=".odp" description="Open Office Presentation" icon="odp-icon.gif" provider="IFILTER" image="false"/>
+	<Type extension=".ods" description="Open Office Spreadsheet" icon="ods-icon.gif" provider="IFILTER" image="false"/>
+	<Type extension=".odt" description="Open Office Text Document" icon="odt-icon.gif" provider="IFILTER" image="false"/>
+	<Type extension=".pdf" description="Acrobat PDF Document" icon="pdf-icon.gif" provider="PDFBox" image="false"/>
+	<Type extension=".ppt" description="Microsoft Power Point Document" icon="powerpoint-icon.jpg" provider="IFILTER" image="false"/>
+	<Type extension=".pps" description="Microsoft Power Point Document" icon="powerpoint-icon.jpg" provider="IFILTER" image="false"/>
+	<Type extension=".txt" description="Text Document" icon="text-icon.jpg" provider="RAW" image="false"/>
+	<Type extension=".text" description="Text Document" icon="text-icon.jpg" provider="RAW" image="false"/>
+	<Type extension=".tif" description="Image" icon="tif-icon.jpg" provider="IFILTER" image="true"/>
+	<Type extension=".vsd" description="Microsoft Visio Document" icon="visio-icon.gif" provider="IFILTER" image="false"/>
+	<Type extension=".wav" description="Audio File" icon="audio-icon.gif" provider="IFILTER" image="false"/>
+	<Type extension=".doc" description="Microsoft Word Document" icon="word-icon.jpg" provider="IFILTER" image="false"/>
+	<Type extension=".dot" description="Microsoft Word Template" icon="word-icon.jpg" provider="IFILTER" image="false"/>
+	<Type extension=".chm" description="Microsoft Help File" icon="chm-icon.gif" provider="IFILTER" image="false"/>
+	<Type extension=".zip" description="Compressed Archive" icon="zip-icon.gif" provider="IFILTER" image="false"/>
+	<Type extension=".csv" description="Comma Separated Value File" icon="csv-icon.gif" provider="IFILTER" image="false"/>
+	<Type extension=".gz" description="Compressed Archive" icon="zip-icon.gif" provider="IFILTER" image="false"/>
+	<Type extension=".rtf" description="Rich Text Format" icon="rtf-icon.gif" provider="IFILTER" image="false"/>
+	<Type extension=".docx" description="Microsoft Word 2007 Document" icon="docx.gif" provider="IFILTER" image="false"/>
+	<Type extension=".docm" description="Microsoft Word 2007 Document" icon="docm.gif" provider="IFILTER" image="false"/>
+	<Type extension=".dotx" description="Microsoft Word 2007 Template" icon="dotx.gif" provider="IFILTER" image="false"/>
+	<Type extension=".dotm" description="Microsoft Word 2007 Template" icon="dotm.gif" provider="IFILTER" image="false"/>
+	<Type extension=".xlsx" description="Microsoft Excel 2007 Spreadsheet" icon="xlsx.gif" provider="IFILTER" image="false"/>
+	<Type extension=".xlsm" description="Microsoft Excel 2007 Spreadsheet" icon="xlsm.gif" provider="IFILTER" image="false"/>
+	<Type extension=".xltx" description="Microsoft Excel 2007 Template" icon="xltx.gif" provider="IFILTER" image="false"/>
+	<Type extension=".xltm" description="Microsoft Excel 2007 Template" icon="xltm.gif" provider="IFILTER" image="false"/>
+	<Type extension=".pptx" description="Microsoft Power Point 2007 Document" icon="pptx.gif" provider="IFILTER" image="false"/>
+	<Type extension=".pptm" description="Microsoft Power Point 2007 Document" icon="pptm.gif" provider="IFILTER" image="false"/>
+	<Type extension=".potx" description="Microsoft Power Point 2007 Template" icon="potx.gif" provider="IFILTER" image="false"/>
+	<Type extension=".potm" description="Microsoft Power Point 2007 Template" icon="potm.gif" provider="IFILTER" image="false"/>
+	<Type extension=".ppsx" description="Microsoft Power Point 2007 Document" icon="ppsx.gif" provider="IFILTER" image="false"/>
+	<Type extension=".ppsm" description="Microsoft Power Point 2007 Document" icon="ppsm.gif" provider="IFILTER" image="false"/>
+  <Type extension=".xps" description="XPS Document" icon="xps.gif" provider="IFILTER" image="false"/>
+  <Type extension=".mpp" description="Proyect Document" icon="mpp.gif" provider="IFILTER" image="false"/>
+  <Type extension=".sql" description="Sql Script" icon="sql-icon.jpg" provider="IFILTER" image="false"/>
+</FileTypes>

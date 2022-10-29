@@ -1,0 +1,24 @@
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\bin\Debug\VideoLlamada.AgoraIO.TokenGenerator.dll
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\bin\Debug\VideoLlamada.AgoraIO.TokenGenerator.pdb
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\bin\Debug\Crc32.NET.dll
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\bin\Debug\Crc32.NET.xml
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Debug\VideoLlamada.TokenGenerator.AgoraIO.csproj.AssemblyReference.cache
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Debug\VideoLlamada.TokenGenerator.AgoraIO.csproj.CoreCompileInputs.cache
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Debug\VideoLlamada.TokenGenerator.AgoraIO.csproj.CopyComplete
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Debug\VideoLlamada.AgoraIO.TokenGenerator.dll
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Debug\VideoLlamada.AgoraIO.TokenGenerator.pdb
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\bin\Debug\VideoLlamada.AgoraIO.TokenGenerator.dll
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\bin\Debug\VideoLlamada.AgoraIO.TokenGenerator.pdb
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\bin\Debug\Crc32.NET.dll
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\bin\Debug\Crc32.NET.xml
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Debug\VideoLlamada.TokenGenerator.AgoraIO.csproj.AssemblyReference.cache
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Debug\VideoLlamada.TokenGenerator.AgoraIO.csproj.CoreCompileInputs.cache
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Debug\VideoLlamada.TokenGenerator.AgoraIO.csproj.CopyComplete
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Debug\VideoLlamada.AgoraIO.TokenGenerator.dll
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Debug\VideoLlamada.AgoraIO.TokenGenerator.pdb
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\bin\Debug\VideoLlamada.AgoraIO.TokenGenerator.dll
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\bin\Debug\VideoLlamada.AgoraIO.TokenGenerator.pdb
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Debug\VideoLlamada.TokenGenerator.AgoraIO.csproj.CoreCompileInputs.cache
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Debug\VideoLlamada.TokenGenerator.AgoraIO.csproj.CopyComplete
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Debug\VideoLlamada.AgoraIO.TokenGenerator.dll
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\VideoLlamada.AgoraIO.TokenGenerator\obj\Debug\VideoLlamada.AgoraIO.TokenGenerator.pdb

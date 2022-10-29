@@ -1,0 +1,35 @@
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\bin\Debug\Cognos.Negocio.dll.config
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\bin\Debug\Cognos.Negocio.dll
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\bin\Debug\Cognos.Negocio.pdb
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\bin\Debug\EntityFramework.dll
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\bin\Debug\EntityFramework.xml
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\obj\Debug\Cognos.Negocio.csproj.AssemblyReference.cache
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\obj\Debug\Cognos.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\obj\Debug\Cognos.Negocio.csproj.CopyComplete
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\obj\Debug\Cognos.Negocio.dll
+C:\Users\Tismart\Desktop\Red Salud\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\obj\Debug\Cognos.Negocio.pdb
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\bin\Debug\Cognos.Negocio.dll.config
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\bin\Debug\Cognos.Negocio.dll
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\bin\Debug\Cognos.Negocio.pdb
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\bin\Debug\EntityFramework.dll
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\bin\Debug\EntityFramework.xml
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\obj\Debug\Cognos.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\obj\Debug\Cognos.Negocio.csproj.CopyComplete
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\obj\Debug\Cognos.Negocio.dll
+C:\Users\Tismart\Documents\OneDrive\Tismart\Proyectos-Tismart\2.RedSalud\5. Fuentes\Red Salud\Desarrollo\Aplicacion\Cognos.Negocio\obj\Debug\Cognos.Negocio.pdb
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Negocio\bin\Debug\Cognos.Negocio.dll.config
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Negocio\bin\Debug\Cognos.Negocio.dll
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Negocio\bin\Debug\Cognos.Negocio.pdb
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Negocio\bin\Debug\EntityFramework.dll
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Negocio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Negocio\bin\Debug\EntityFramework.xml
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Negocio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Negocio\obj\Debug\Cognos.Negocio.csproj.AssemblyReference.cache
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Negocio\obj\Debug\Cognos.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Negocio\obj\Debug\Cognos.Negocio.csproj.CopyComplete
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Negocio\obj\Debug\Cognos.Negocio.dll
+C:\Users\Tismart\Documents\OneDrive\Aplicacion\Cognos.Negocio\obj\Debug\Cognos.Negocio.pdb

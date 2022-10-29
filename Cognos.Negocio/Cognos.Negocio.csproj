@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{59EE49D4-A4D8-4F95-B52F-4D4F6B7A5620}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cognos.Negocio</RootNamespace>
+    <AssemblyName>Cognos.Negocio</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\RedSalud\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\RedSalud\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="C_TransactionIndex_b56a0255_cfeb_4caa_920a_6c0beca7d876.cs" />
+    <Compile Include="Library\Autenticacion.cs" />
+    <Compile Include="Library\Polizas.cs" />
+    <Compile Include="Negocio.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rstCitasDetalleTxn.cs" />
+    <Compile Include="rstCitasLogTxn.cs" />
+    <Compile Include="rstCitasParametros.cs" />
+    <Compile Include="rstCitasTxn.cs" />
+    <Compile Include="rstClienteParametrosAPIVL.cs" />
+    <Compile Include="rstHorarioMedicoVideoLlamada.cs" />
+    <Compile Include="rstPacienteMovil.cs" />
+    <Compile Include="rstPacienteMovilAsegurado.cs" />
+    <Compile Include="sysdiagrams.cs" />
+    <Compile Include="tbl_Asegurado.cs" />
+    <Compile Include="tbl_Caso.cs" />
+    <Compile Include="tbl_Caso_Emergencia.cs" />
+    <Compile Include="tbl_Caso_Especialidad.cs" />
+    <Compile Include="tbl_Caso_LaboratoriosImagenologia.cs" />
+    <Compile Include="tbl_Caso_Odontologia.cs" />
+    <Compile Include="tbl_Cita.cs" />
+    <Compile Include="tbl_CLA_Ciudad.cs" />
+    <Compile Include="tbl_CLA_CodigoArancelario.cs" />
+    <Compile Include="tbl_CLA_Enfermedad.cs" />
+    <Compile Include="tbl_CLA_EnfermedadCronica.cs" />
+    <Compile Include="tbl_CLA_Especialidad.cs" />
+    <Compile Include="tbl_CLA_MedicamentoEnfermeria.cs" />
+    <Compile Include="tbl_CLA_MedicamentoGrupo.cs" />
+    <Compile Include="tbl_CLA_MedicamentoLINAME.cs" />
+    <Compile Include="tbl_CLA_MedicamentoSubgrupo.cs" />
+    <Compile Include="tbl_CLA_MotivoConsulta.cs" />
+    <Compile Include="tbl_CLA_PresentacionMedicamento.cs" />
+    <Compile Include="tbl_CLA_PrestacionesOdontologicas.cs" />
+    <Compile Include="tbl_CLA_Protocolo.cs" />
+    <Compile Include="tbl_CLA_TipoConcentracion.cs" />
+    <Compile Include="tbl_CLA_TipoEnfermedad.cs" />
+    <Compile Include="tbl_CLA_TipoEstudio.cs" />
+    <Compile Include="tbl_CLA_TipoMedicamento.cs" />
+    <Compile Include="tbl_CLA_TipoProveedor.cs" />
+    <Compile Include="tbl_Configuration.cs" />
+    <Compile Include="tbl_Consolidacion.cs" />
+    <Compile Include="tbl_DatabaseInfo.cs" />
+    <Compile Include="tbl_Derivacion.cs" />
+    <Compile Include="tbl_DerivacionFile.cs" />
+    <Compile Include="tbl_DESG_CitaDesgravamen.cs" />
+    <Compile Include="tbl_DESG_CitaDesgravamenBackup.cs" />
+    <Compile Include="tbl_DESG_ClienteUsuario.cs" />
+    <Compile Include="tbl_DESG_Configuracion.cs" />
+    <Compile Include="tbl_DESG_Consulta3229.cs" />
+    <Compile Include="tbl_DESG_ConsultaCita.cs" />
+    <Compile Include="tbl_DESG_ConsultaCita3229.cs" />
+    <Compile Include="tbl_DESG_ConsultaCitaCovid.cs" />
+    <Compile Include="tbl_DESG_ConsultaClienteCovid.cs" />
+    <Compile Include="tbl_DESG_ConsultaClienteCovidPregunta.cs" />
+    <Compile Include="tbl_DESG_ConsultaPregunta.cs" />
+    <Compile Include="tbl_DESG_ConsultaPreguntaCita.cs" />
+    <Compile Include="tbl_DESG_ConsultaPreguntaCita_4955_TEMP.cs" />
+    <Compile Include="tbl_DESG_Estudio.cs" />
+    <Compile Include="tbl_DESG_EstudioGrupo.cs" />
+    <Compile Include="tbl_DESG_EstudioProveedor.cs" />
+    <Compile Include="tbl_DESG_EstudioProveedorBackup.cs" />
+    <Compile Include="tbl_DESG_Financiera.cs" />
+    <Compile Include="tbl_DESG_LaboratorioEstudio.cs" />
+    <Compile Include="tbl_DESG_LaboratorioEstudioBackup.cs" />
+    <Compile Include="tbl_DESG_LaboratorioFile.cs" />
+    <Compile Include="tbl_DESG_Medico.cs" />
+    <Compile Include="tbl_DESG_MedicoHorarios.cs" />
+    <Compile Include="tbl_DESG_ProgramacionCita.cs" />
+    <Compile Include="tbl_DESG_ProgramacionCitaLabo.cs" />
+    <Compile Include="tbl_DESG_ProgramacionCitaLaboBackup.cs" />
+    <Compile Include="tbl_DESG_ProgramacionCitaLaboTest.cs" />
+    <Compile Include="tbl_DESG_PropuestoAsegurado.cs" />
+    <Compile Include="tbl_DESG_PropuestoAseguradoBackup.cs" />
+    <Compile Include="tbl_DESG_ProveedorMedico.cs" />
+    <Compile Include="tbl_DESG_ProveedorMedicoHorarios.cs" />
+    <Compile Include="tbl_DESG_TipoProducto.cs" />
+    <Compile Include="tbl_Emergencia.cs" />
+    <Compile Include="tbl_EmergenciaFile.cs" />
+    <Compile Include="tbl_Estudio.cs" />
+    <Compile Include="tbl_EstudioFile.cs" />
+    <Compile Include="tbl_File.cs" />
+    <Compile Include="tbl_File2.cs" />
+    <Compile Include="tbl_Gasto.cs" />
+    <Compile Include="tbl_GastoDetalle.cs" />
+    <Compile Include="tbl_GridColumn.cs" />
+    <Compile Include="tbl_GridPageSize.cs" />
+    <Compile Include="tbl_Historia.cs" />
+    <Compile Include="tbl_Internacion.cs" />
+    <Compile Include="tbl_InternacionFile.cs" />
+    <Compile Include="tbl_Internacion_Cirugia.cs" />
+    <Compile Include="tbl_Internacion_Internacion.cs" />
+    <Compile Include="tbl_LOG_Bitacoras.cs" />
+    <Compile Include="tbl_Medicamento.cs" />
+    <Compile Include="tbl_MedicamentoFile.cs" />
+    <Compile Include="tbl_Odontologia.cs" />
+    <Compile Include="tbl_OdontologiaFile.cs" />
+    <Compile Include="tbl_Paciente.cs" />
+    <Compile Include="tbl_Plan.cs" />
+    <Compile Include="tbl_PlanPrestacion.cs" />
+    <Compile Include="tbl_Poliza.cs" />
+    <Compile Include="tbl_PolizaEstado.cs" />
+    <Compile Include="tbl_Receta.cs" />
+    <Compile Include="tbl_RecetaFile.cs" />
+    <Compile Include="tbl_RED_Cliente.cs" />
+    <Compile Include="tbl_RED_Cliente_Cirugias.cs" />
+    <Compile Include="tbl_RED_Cliente_Especialidad.cs" />
+    <Compile Include="tbl_RED_Cliente_Imagenologia.cs" />
+    <Compile Include="tbl_RED_Cliente_Laboratorios.cs" />
+    <Compile Include="tbl_RED_Cliente_Odontologia.cs" />
+    <Compile Include="tbl_RED_Cliente_Prestaciones.cs" />
+    <Compile Include="tbl_RED_Especialista.cs" />
+    <Compile Include="tbl_RED_Medico.cs" />
+    <Compile Include="tbl_RED_Proveedor.cs" />
+    <Compile Include="tbl_RED_ProveedorCiudad.cs" />
+    <Compile Include="tbl_RED_Proveedor_LaboratoriosImagenologia.cs" />
+    <Compile Include="tbl_RED_Proveedor_Odontologia.cs" />
+    <Compile Include="tbl_RED_RedMedica.cs" />
+    <Compile Include="tbl_RED_RedMedicaProveedor.cs" />
+    <Compile Include="tbl_SavedSearch.cs" />
+    <Compile Include="tbl_SEG_AccessRole.cs" />
+    <Compile Include="tbl_SEG_AccessUser.cs" />
+    <Compile Include="tbl_SEG_Permission.cs" />
+    <Compile Include="tbl_SEG_User.cs" />
+    <Compile Include="tbl_SOAT_Accidentado.cs" />
+    <Compile Include="tbl_SOAT_GastosEjecutados.cs" />
+    <Compile Include="tbl_SOAT_GastosEjecutadosDetalle.cs" />
+    <Compile Include="tbl_SOAT_GestionMedica.cs" />
+    <Compile Include="tbl_SOAT_PagoGastos.cs" />
+    <Compile Include="tbl_SOAT_PolizaVehiculo.cs" />
+    <Compile Include="tbl_SOAT_Preliquidacion.cs" />
+    <Compile Include="tbl_SOAT_PreliquidacionDetalle.cs" />
+    <Compile Include="tbl_SOAT_Proveedor.cs" />
+    <Compile Include="tbl_SOAT_Seguimiento.cs" />
+    <Compile Include="tbl_SOAT_Siniestro.cs" />
+    <Compile Include="tbl_TSK_Manager.cs" />
+    <Compile Include="tbl_TSK_Task.cs" />
+    <Compile Include="tbl_UsuarioServicio.cs" />
+    <Compile Include="tbl_UsuarioServicioCliente.cs" />
+    <Compile Include="tbl_ViewState.cs" />
+    <Compile Include="usv_RED_Cirugias_Prestaciones.cs" />
+    <Compile Include="usv_RED_Cliente_Prestaciones.cs" />
+    <Compile Include="usv_RED_Especialidades_Prestaciones.cs" />
+    <Compile Include="usv_RED_GruposLab_Prestaciones.cs" />
+    <Compile Include="usv_RED_Imagen_Prestaciones.cs" />
+    <Compile Include="usv_RED_Odonto_Prestaciones.cs" />
+    <Compile Include="usv_RED_Prov_LabImgCar_Prestaciones.cs" />
+    <Compile Include="usv_RED_Prov_Odo_Prestaciones.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
